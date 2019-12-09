@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.kashiyatra.ky19.LoginActivity">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"
+        android:src="@drawable/back" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frame"
+        android:scaleType="fitEnd"/>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_above="@id/ky_login_button"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/ky_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/register_linear_layout"
+        android:layout_alignEnd="@id/google_login_button"
+        android:layout_alignStart="@id/google_login_button"
+        android:background="#89487e"
+        android:drawableStart="@drawable/ic_ky"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingHorizontal="40dp"
+        android:text="Log in with KY ID"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/register_linear_layout"
+        style="?attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/register_later"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Register Later"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/register_now"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Register Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ky_number_input"
+        android:layout_alignParentEnd="true"
+        android:background="@color/transparent"
+        android:drawableTop="@drawable/ic_submit"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/ky_number_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_linear_layout"
+        android:layout_alignStart="@+id/ky_login_button"
+        android:layout_alignTop="@id/ky_login_button"
+        android:layout_alignEnd="@+id/ky_login_button"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#a9a8a2"
+        android:textColorLink="@color/colorPrimaryDark"
+        android:textSize="27sp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

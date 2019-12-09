@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="event_names">
+        <item>Abhinay</item>
+        <item>Bandish</item>
+        <item>Crosswindz</item>
+        <item>Enquizta</item>
+        <item>Mirage</item>
+        <item>Natraj</item>
+        <item>Samwaad</item>
+        <item>Toolika</item>
+    </string-array>
+
+    <integer-array name="event_backgrounds">
+        <item>@color/no1</item>
+        <item>@color/no2</item>
+        <item>@color/no3</item>
+        <item>@color/no4</item>
+        <item>@color/no5</item>
+        <item>@color/no6</item>
+        <item>@color/no7</item>
+        <item>@color/no8</item>
+    </integer-array>
+
+    <integer-array name="subevent_backgrounds">
+        <item>@drawable/abhinay_background</item>
+        <item>@drawable/bandish_background</item>
+        <item>@drawable/crosswindz_background</item>
+        <item>@drawable/enquizta_background</item>
+        <item>@drawable/mirage_background</item>
+        <item>@drawable/natraj_background</item>
+        <item>@drawable/samvaad_background</item>
+        <item>@drawable/toolika_background</item>
+    </integer-array>
+
+
+
+    <integer-array name="event_icons">
+        <item>@drawable/abhinay_icon</item>
+        <item>@drawable/bandish_icon</item>
+        <item>@drawable/crosswindz_icon</item>
+        <item>@drawable/enquizta_icon</item>
+        <item>@drawable/mirage_icon</item>
+        <item>@drawable/natraj_icon</item>
+        <item>@drawable/samwaad_icon</item>
+        <item>@drawable/toolika_icon</item>
+    </integer-array>
+
+    <string-array name="event_descriptions">
+        <item>(Theatre)</item>
+        <item>(Indian Music)</item>
+        <item>(Western Music)</item>
+        <item>(Quiz)</item>
+        <item>(Lifestyle)</item>
+        <item>(Dance)</item>
+        <item>(Literary Arts)</item>
+        <item>(Fine arts)</item>
+
+
+    </string-array>
+
+    <!--    Name String Arrays  -->
+    <string-array name="natraj_subevent_names">
+        <item>Bliss</item>
+        <item>Cut-a-rug</item>
+        <item>Ecstasy</item>
+        <item>Cypher of Mobs</item>
+    </string-array>
+
+    <string-array name="abhinay_subevent_names">
+        <item>Rangmanch</item>
+        <item>Asmita</item>
+        <item>Hullad</item>
+        <item>Chestha</item>
+    </string-array>
+
+    <string-array name="crosswindz_subevent_names">
+        <item>Battle of Bands</item>
+    </string-array>
+
+    <string-array name="bandish_subevent_names">
+        <item>Sur</item>
+        <item>Raagsamar</item>
+        <item>Sanlayan</item>
+        <item>Kriti</item>
+        <item>Advaita</item>
+    </string-array>
+
+    <string-array name="mirage_subevent_names">
+        <item>Design Elegante</item>
+        <item>Mr. KY</item>
+        <item>Miss KY</item>
+    </string-array>
+
+    <string-array name="toolika_subevent_names">
+        <item>Rapid Fire</item>
+        <item>Spoil the Tees</item>
+
+        <item>Vastra Shilp</item>
+        <item>Rangbaazi</item>
+        <item>Face Painting</item>
+        <item>Soap Carving</item>
+        <item>Ink it!</item>
+    </string-array>
+
+    <string-array name="samwaad_subevent_names">
+        <item>Scripturesque</item>
+        <item>Battlefront</item>
+        <item>Shipwreck Cove</item>
+        <item>The legend of Sir Speak-A-Lot</item>
+        <item>A Jesters Court</item>
+        <item>Vaad Vivaad</item>
+        <item>Alfaaz</item>
+        <item>Ashubhashan</item>
+        <item>What\'s the Word?</item>
+        <item>Hinkhoj</item>
+    </string-array>
+
+    <string-array name="enquizta_subevent_names">
+        <item>India Quiz</item>
+        <item>General Quiz</item>
+        <item>Sports Quiz</item>
+        <item>Biz-Tech Quiz</item>
+        <item>MELA Quiz</item>
+        <item>TLC Quiz</item>
+    </string-array>
+
+    <!--    Abouts String Arrays    -->
+    <string-array name="natraj_subevent_abouts">
+        <item>@string/bliss_about</item>
+        <item>@string/cut_a_rug_about</item>
+        <item>@string/ecstasy_about</item>
+        <item>@string/cypher_about</item>
+    </string-array>
+
+    <string-array name="abhinay_subevent_abouts">
+        <item>@string/rangmanch_about</item>
+        <item>@string/asmita_about</item>
+        <item>@string/hullad_about</item>
+        <item>@string/chestha_about</item>
+    </string-array>
+
+    <string-array name="crosswindz_subevent_abouts">
+        <item>@string/battle_of_bands_about</item>
+        <!--<item>@string/instrumental_showdown_about</item>-->
+    </string-array>
+
+    <string-array name="bandish_subevent_abouts">
+        <item>@string/sur_about</item>
+        <item>@string/raagsamar_about</item>
+        <item>@string/sanlayan_about</item>
+        <item>@string/kriti_about</item>
+        <item>@string/advaita_about</item>
+    </string-array>
+
+    <string-array name="mirage_subevent_abouts">
+        <item>@string/design_elegante_about</item>
+        <item>@string/mr_ky_about</item>
+        <item>@string/miss_ky_about</item>
+    </string-array>
+
+    <string-array name="toolika_subevent_abouts">
+        <item>@string/rapid_fire_about</item>
+        <item>@string/spoil_the_tees_about</item>
+
+        <item>@string/vastra_shilp_about</item>
+        <item>@string/rangbaazi_about</item>
+        <item>@string/face_painting_about</item>
+        <item>@string/soap_carving_about</item>
+        <item>@string/ink_it_about</item>
+    </string-array>
+
+    <string-array name="samwaad_subevent_abouts">
+        <item>@string/scripturesque_about</item>
+        <item>@string/battlefront_about</item>
+        <item>@string/shipwreck_cove_about</item>
+        <item>@string/the_legend_of_sir_speak_a_lot_about</item>
+        <item>@string/a_jesters_court_about</item>
+        <item>@string/vaad_vivaad_about</item>
+        <item>@string/alfaaz_about</item>
+        <item>@string/ashubhashan_about</item>
+        <item>@string/whats_the_word_about</item>
+        <item>@string/hinkhoj_about</item>
+    </string-array>
+
+    <string-array name="enquizta_subevent_abouts">
+        <item>@string/india_quiz_about</item>
+        <item>@string/general_quiz_about</item>
+        <item>@string/sports_quiz_about</item>
+        <item>@string/biz_tech_about</item>
+        <item>@string/mela_about</item>
+        <item>@string/tlc_about</item>
+    </string-array>
+
+
+    <!--    Rules String Arrays -->
+    <string-array name="natraj_subevent_rules">
+        <item>@string/bliss_rules</item>
+        <item>@string/cut_a_rug_rules</item>
+        <item>@string/ecstasy_rules</item>
+        <item>@string/cypher_rules</item>
+    </string-array>
+
+    <string-array name="abhinay_subevent_rules">
+        <item>@string/rangmanch_rules</item>
+        <item>@string/asmita_rules</item>
+        <item>@string/hullad_rules</item>
+        <item>@string/chestha_rules</item>
+    </string-array>
+
+    <string-array name="crosswindz_subevent_rules">
+        <item>@string/battle_of_bands_rules</item>
+    </string-array>
+
+    <string-array name="bandish_subevent_rules">
+        <item>@string/sur_rules</item>
+        <item>@string/raagsamar_rules</item>
+        <item>@string/sanlayan_rules</item>
+        <item>@string/kriti_rules</item>
+        <item>@string/advaita_rules</item>
+    </string-array>
+
+    <string-array name="mirage_subevent_rules">
+        <item>@string/design_elegante_rules</item>
+        <item>@string/mr_ky_rules</item>
+        <item>@string/miss_ky_rules</item>
+    </string-array>
+
+    <string-array name="toolika_subevent_rules">
+        <item>@string/rapid_fire_rules</item>
+        <item>@string/spoil_the_tees_rules</item>
+
+        <item>@string/vastra_shilp_rules</item>
+        <item>@string/rangbaazi_rules</item>
+        <item>@string/face_painting_rules</item>
+        <item>@string/soap_carving_rules</item>
+        <item>@string/ink_it_rules</item>
+    </string-array>
+
+    <string-array name="samwaad_subevent_rules">
+        <item>@string/scripturesque_rules</item>
+        <item>@string/battlefront_rules</item>
+        <item>@string/shipwreck_cove_rules</item>
+        <item>@string/the_legend_of_sir_speak_a_lot_rules</item>
+        <item>@string/a_jesters_court_rules</item>
+        <item>@string/vaad_vivaad_rules</item>
+        <item>@string/alfaaz_rules</item>
+        <item>@string/ashubhashan_rules</item>
+        <item>@string/whats_the_word_rules</item>
+        <item>@string/hinkhoj_rules</item>
+    </string-array>
+
+    <string-array name="enquizta_subevent_rules">
+        <item>@string/india_quiz_rules</item>
+        <item>@string/general_quiz_rules</item>
+        <item>@string/sports_quiz_rules</item>
+        <item>@string/biz_tech_rules</item>
+        <item>@string/mela_rules</item>
+        <item>@string/mela_rules</item>
+    </string-array>
+
+
+    <!--    Short Description String Arrays -->
+    <string-array name="natraj_subevent_short_description">
+        <item>@string/bliss_short_description</item>
+        <item>@string/cut_a_rug_short_description</item>
+        <item>@string/ecstasy_short_description</item>
+
+        <item>@string/cypher_short_description</item>
+    </string-array>
+
+    <string-array name="abhinay_subevent_short_description">
+        <item>@string/rangmanch_short_description</item>
+        <item>@string/asmita_short_description</item>
+        <item>@string/hullad_short_description</item>
+        <item>@string/chestha_short_description</item>
+    </string-array>
+
+    <string-array name="crosswindz_subevent_short_description">
+        <item>@string/battle_of_bands_short_description</item>
+    </string-array>
+
+    <string-array name="bandish_subevent_short_description">
+        <item>@string/sur_short_description</item>
+        <item>@string/raagsamar_short_description</item>
+        <item>@string/sanlayan_short_description</item>
+        <item>@string/kriti_short_description</item>
+        <item>@string/advaita_short_description</item>
+    </string-array>
+
+    <string-array name="mirage_subevent_short_description">
+        <item>@string/design_elegante_short_description</item>
+        <item>@string/mr_ky_short_description</item>
+        <item>@string/miss_ky_short_description</item>
+    </string-array>
+
+    <string-array name="toolika_subevent_short_description">
+        <item>@string/rapid_fire_short_description</item>
+        <item>@string/spoil_the_tees_short_description</item>
+
+        <item>@string/vastra_shilp_short_description</item>
+        <item>@string/rangbaazi_short_description</item>
+        <item>@string/face_painting_short_description</item>
+        <item>@string/soap_carving_short_description</item>
+        <item>@string/ink_it_short_description</item>
+    </string-array>
+
+    <string-array name="samwaad_subevent_short_description">
+        <item>@string/scripturesque_short_description</item>
+        <item>@string/battlefront_short_description</item>
+        <item>@string/shipwreck_cove_short_description</item>
+        <item>@string/the_legend_of_sir_speak_a_lot_short_description</item>
+        <item>@string/a_jesters_court_short_description</item>
+        <item>@string/vaad_vivaad_short_description</item>
+        <item>@string/alfaaz_short_description</item>
+        <item>@string/ashubhashan_short_description</item>
+        <item>@string/whats_the_word_short_description</item>
+        <item>@string/hinkhoj_short_description</item>
+    </string-array>
+
+    <string-array name="enquizta_subevent_short_description">
+        <item>@string/india_quiz_short_description</item>
+        <item>@string/general_quiz_short_description</item>
+        <item>@string/sports_quiz_short_description</item>
+        <item>@string/biz_tech_short_description</item>
+        <item>@string/mela_short_description</item>
+        <item>@string/mela_short_description</item>
+    </string-array>
+
+    <!--    Image typed arrays  -->
+    <integer-array name="natraj_subevent_images">
+        <item>@drawable/bliss</item>
+        <item>@drawable/cut_a_rug</item>
+        <item>@drawable/ecstasy</item>
+        <item>@drawable/nritya</item>
+    </integer-array>
+
+    <integer-array name="abhinay_subevent_images">
+        <item>@drawable/rangmanch</item>
+        <item>@drawable/asmita</item>
+        <item>@drawable/hullad</item>
+        <item>@drawable/hullad</item>
+    </integer-array>
+
+    <integer-array name="crosswindz_subevent_images">
+        <item>@drawable/battle_of_bands</item>
+    </integer-array>
+
+    <integer-array name="bandish_subevent_images">
+        <item>@drawable/sur</item>
+        <item>@drawable/sargam</item>
+        <item>@drawable/sanlayan</item>
+        <item>@drawable/kriti</item>
+        <item>@drawable/advaita</item>
+    </integer-array>
+
+    <integer-array name="mirage_subevent_images">
+        <item>@drawable/design_elegante</item>
+        <item>@drawable/mr_ky</item>
+        <item>@drawable/miss_ky</item>
+    </integer-array>
+
+    <integer-array name="toolika_subevent_images">
+        <item>@drawable/rapid_fire</item>
+        <item>@drawable/spoil_the_tees</item>
+
+        <item>@drawable/vastra_shilp</item>
+        <item>@drawable/rangbaazi</item>
+        <item>@drawable/clay_modelling</item>
+        <item>@drawable/soap_carving</item>
+        <item>@drawable/ink_it</item>
+    </integer-array>
+
+    <integer-array name="samwaad_subevent_images">
+        <item>@drawable/scripturesque</item>
+        <item>@drawable/battlefront</item>
+        <item>@drawable/shipwreck_cove</item>
+        <item>@drawable/alfaaz</item>
+        <item>@drawable/a_jesters_court</item>
+        <item>@drawable/scripturesque</item>
+        <item>@drawable/alfaaz</item>
+        <item>@drawable/ashubhashan</item>
+        <item>@drawable/whats_the_word</item>
+        <item>@drawable/whats_the_word</item>
+    </integer-array>
+
+    <integer-array name="enquizta_subevent_images">
+        <item>@drawable/india_quiz</item>
+        <item>@drawable/general_quiz</item>
+        <item>@drawable/sports_quiz</item>
+        <item>@drawable/biz_tech</item>
+        <item>@drawable/mela_quiz</item>
+        <item>@drawable/mela_quiz</item>
+    </integer-array>
+
+    <!--    String subevent schedules-->
+
+    <!--   Venue Names  -->
+
+
+    <!--    FAQs    -->
+
+
+    <string-array name="team_names_core">
+        <item>Sanprit Nayan</item>
+        <item>Kalpesh Bansal</item>
+        <item>Arun Suri</item>
+        <item>Sai Sumanth</item>
+        <item>Mayank Gupta</item>
+        <item>Prakarsh Saxena</item>
+        <item>Sai Pavan</item>
+
+
+
+    </string-array>
+
+    <string-array name="team_names_marketing">
+        <item>Ujjawal Khare</item>
+        <item>Jayant Chauhan</item>
+        <item>Varun Maheshwari</item>
+        <item>Umed Singh </item>
+        <item>Neelanchal Khelwar</item>
+    </string-array>
+
+    <string-array name="team_names_publicity">
+        <item>Utsav Gandhi </item>
+        <item>Keval Mehta</item>
+        <item>Rishabh Agarwal</item>
+        <item>Paras Singh Chauhan</item>
+        <item>Ravi Prakash Yadav</item>
+        <item>Mohit Sharma</item>
+        <item>Surya Prakash </item>
+        <item>Shubham Kureel</item>
+        <item>Surendra Meena</item>
+    </string-array>
+
+    <string-array name="team_names_pubrel">
+        <item>Shivansh Tripathi </item>
+        <item>Thakur Aditya Kumar</item>
+    </string-array>
+
+    <string-array name="team_names_events">
+        <item>Apurv Goel</item>
+        <item>Pankaj P N Jarha</item>
+    </string-array>
+
+    <string-array name="team_names_opnlog">
+        <item>Guna Sai</item>
+        <item>Avinash Kumar</item>
+        <item>Adarsh Sonkar</item>
+        <item>Prabhat Kumar</item>
+        <item>Parijat Pushpam</item>
+        <item>Pratik Siddheshwar</item>
+        <item>Ankit Meena</item>
+        <item>Ashutosh Meena</item>
+    </string-array>
+
+    <string-array name="team_names_tech">
+        <item>Utkarsh Sinha</item>
+        <item>Vedant Agnihotri</item>
+        <item>Mukesh Deogune</item>
+        <item>Sachit Maurya</item>
+    </string-array>
+
+    <string-array name="team_names_creative">
+        <item>Rohit Verma</item>
+        <item>Ayush Shukla </item>
+        <item>Piyush Priyadarshi</item>
+        <item>Aishwarya Sharma</item>
+        <item>Piyush Bhardwaj</item>
+    </string-array>
+
+    <string-array name="team_roles_core">
+        <item>Convener</item>
+        <item>Co-Convener</item>
+        <item>Co-Convener</item>
+        <item>Chief Advisor</item>
+        <item>Chief Advisor</item>
+        <item>Chief Advisor</item>
+        <item>General Secretary, Cultural Council</item>
+    </string-array>
+
+    <string-array name="team_roles_marketing">
+        <item>Marketing</item>
+        <item>Marketing</item>
+        <item>Marketing</item>
+        <item>Marketing</item>
+        <item>Marketing</item>
+    </string-array>
+
+    <string-array name="team_roles_publicity">
+        <item>Publicity</item>
+        <item>Publicity</item>
+        <item>Publicity</item>
+        <item>Publicity</item>
+        <item>Publicity</item>
+        <item>Media and Publicity</item>
+        <item>Publicity</item>
+        <item>Publicity</item>
+        <item>Publicity</item>
+    </string-array>
+
+    <string-array name="team_roles_pubrel">
+
+        <item>Public Relations</item>
+        <item>Public Relations</item>
+    </string-array>
+
+    <string-array name="team_roles_events">
+        <item>Events</item>
+        <item>Events</item>
+    </string-array>
+
+    <string-array name="team_roles_opnlog">
+        <item>Operations and Logistics</item>
+        <item>Operations and Logistics</item>
+        <item>Operations and Logistics</item>
+        <item>Security</item>
+        <item>Hospitality</item>
+        <item>Hospitality</item>
+        <item>Operations and Logistics</item>
+        <item>Operations and Logistics</item>
+    </string-array>
+
+    <string-array name="team_roles_tech">
+        <item>Web Team</item>
+        <item>Web Team</item>
+        <item>Web Team</item>
+
+        <item>Android App</item>
+    </string-array>
+
+    <string-array name="team_roles_creative">
+        <item>Creative Team</item>
+        <item>Creative Team</item>
+        <item>Creative Team</item>
+        <item>Creative Team</item>
+        <item>Creative Team</item>
+    </string-array>
+
+    <string-array name="team_photo_urls_core">
+        <item>https://i.ibb.co/Q901Lhj/sanprit.jpg</item>
+        <item>https://image.ibb.co/efrd4w/kalpesh.jpg</item>
+        <item>https://image.ibb.co/mg8Qjw/arun.jpg</item>
+        <item>https://image.ibb.co/njZRrb/sumanth.jpg</item>
+        <item>https://image.ibb.co/dFyCrm/mayank.jpg</item>
+        <item>https://image.ibb.co/dcey4w/prakarsh.jpg</item>
+        <item>https://image.ibb.co/nnj6Pw/person.png</item>
+
+
+    </string-array>
+
+    <string-array name="team_photo_urls_marketing">
+        <item>https://i.ibb.co/y8WfvF7/ujjwal.jpg</item>
+        <item>https://i.ibb.co/zQ2B9kW/jayant.jpg</item>
+        <item>https://i.ibb.co/rQkc5nR/varun.jpg</item>
+        <item>https://i.ibb.co/WyfBhz7/umed.jpg</item>
+        <item>https://i.ibb.co/n1n9yf7/neelanchal.jpg</item>
+        <item>https://i.ibb.co/rQkc5nR/varun.jpg</item>
+
+
+    </string-array>
+
+    <string-array name="team_photo_urls_publicity">
+        <item>https://i.ibb.co/vmT3PS3/Utsav.jpg</item>
+        <item>https://i.ibb.co/3WNvPQH/keval.jpg</item>
+        <item>https://i.ibb.co/T2qNj62/moosa.jpg</item>
+        <item>https://i.ibb.co/z80Vzvt/paras.jpg</item>
+        <item>https://i.ibb.co/4mcvmJR/ravi.jpg</item>
+        <item>https://i.ibb.co/BfB0sFS/mohit.jpg</item>
+        <item>https://i.ibb.co/VLfSNj0/Surya.jpg</item>
+        <item>https://i.ibb.co/60J6GWN/shubham.jpg</item>
+        <item>https://i.ibb.co/Z8GX87p/surendra.jpg</item>
+
+
+    </string-array>
+
+    <string-array name="team_photo_urls_pubrel">
+        <item>https://i.ibb.co/RHQ8P6Y/shivansh.jpg</item>
+        <item>https://i.ibb.co/HdG1SDM/thakur.jpg</item>
+
+
+    </string-array>
+
+    <string-array name="team_photo_urls_events">
+        <item>https://i.ibb.co/mX8Trt9/apurv.jpg</item>
+        <item>https://i.ibb.co/M2BnSWR/pankaj.jpg</item>
+
+    </string-array>
+
+    <string-array name="team_photo_urls_opnlog">
+        <item>https://i.ibb.co/vk4SsVq/gunasai.jpg</item>
+        <item>https://i.ibb.co/LPtM6dw/avinash.jpg</item>
+        <item>https://i.ibb.co/mDCD9Hp/Adarsh.jpg</item>
+        <item>https://i.ibb.co/WDBFDCT/prabhat.jpg</item>
+        <item>https://image.ibb.co/nnj6Pw/person.png</item>
+        <item>https://image.ibb.co/nnj6Pw/person.png</item>
+        <item>https://i.ibb.co/X7pzbtX/ankit.jpg</item>
+        <item>https://i.ibb.co/gRSVXLh/ashutosh.jpg</item>
+    </string-array>
+
+    <string-array name="team_photo_urls_tech">
+        <item>https://i.ibb.co/wwqrcCH/utkarsh.jpg</item>
+        <item>https://i.ibb.co/QXF7d76/vedant.jpg</item>
+        <item>https://image.ibb.co/nnj6Pw/person.png</item>
+        <item>https://i.ibb.co/9NMRQPZ/sachit.jpg</item>
+    </string-array>
+
+    <string-array name="team_photo_urls_creative">
+        <item>https://i.ibb.co/8bxKyTq/rohit-0.jpg</item>
+        <item>https://i.ibb.co/D1qcGZC/ayush.jpg</item>
+        <item>https://i.ibb.co/pyZNq5H/priyadarshi.jpg</item>
+        <item>https://i.ibb.co/gJYyCgD/aishwarya.jpg</item>
+        <item>https://image.ibb.co/nnj6Pw/person.png</item>
+
+
+    </string-array>
+
+    <string-array name="team_emails_core">
+        <item>sanprit.nayan.met15@iitbhu.ac.in</item>
+        <item>kalpesh.bansal.eee15@iitbhu.ac.in</item>
+        <item>arun.suri.phe15@iitbhu.ac.in</item>
+        <item>nsai.sumanth.eee15@iitbhu.ac.in</item>
+        <item>mayank.gupta.phe15@iitbhu.ac.in</item>
+        <item>prakarsh.saxena.met15@iitbhu.ac.in</item>
+        <item>saipavan.sn.met15@itbhu.ac.in</item>
+
+    </string-array>
+
+    <string-array name="team_emails_marketing">
+        <item>ujjwal.khare.civ16@iitbhu.ac.in</item>
+        <item>jayant.chauhan.mec16@itbhu.ac.in</item>
+        <item>varun.maheshwari.min16@itbhu.ac.in</item>
+        <item>Umed.singh.mec16@iitbhu.ac.in</item>
+        <item>neelanchal.khelwar.met16@iitbhu.ac.in</item>
+
+    </string-array>
+
+    <string-array name="team_emails_publicity">
+        <item>utsav.gandhi.mec16@iitbhu.ac.in</item>
+        <item>mehtak.nilesh.cer16@iitbhu.ac.in</item>
+        <item>rishabh.agarwal.met16@itbhu.ac.in</item>
+        <item>psingh.chauhan.cer16@itbhu.ac.in</item>
+        <item>raviprakash.yadav.met16@itbhu.ac.in</item>
+        <item>mohit.sharma.che16@itbhu.ac.in</item>
+        <item>vsvsurya.prakash.civ16@itbhu.ac.in</item>
+        <item>shubham.kureel.phy16@itbhu.ac.in</item>
+        <item>surendrak.meena.cer16@itbhu.ac</item>
+    </string-array>
+
+    <string-array name="team_emails_pubrel">
+        <item>shivansh.tripathi.mec16@itbhu.ac</item>
+        <item>taknaveen.kumar.mec16@itbhu.ac.in</item>
+
+    </string-array>
+
+    <string-array name="team_emails_events">
+        <item>apurv.goel.met16@itbhu.ac.in</item>
+        <item>pankaj.pnjarha.min16@itbhu.ac.in</item>
+
+    </string-array>
+
+    <string-array name="team_emails_opnlog">
+        <item>gaddamguna.sai.min16@itbhu.ac.in</item>
+        <item>AVINASH.KUMAR.CIV16@IITBHU.AC.IN</item>
+        <item>adarsh.sonkar.eee16@itbhu.ac.in</item>
+        <item>prabhat.kumar.civ16@itbhu.ac.in</item>
+        <item>parijat.pushpam.civ16@itbhu.ac.in</item>
+        <item>pratik.siddeshwar.civ16@itbhu.ac.in</item>
+        <item>ankit.meena.phe17@itbhu.ac.in</item>
+        <item>ashutosh.meena.chy17@itbhu.ac.in</item>
+    </string-array>
+
+    <string-array name="team_emails_tech">
+        <item>utkarsh.sinha.met16@itbhu.ac.in</item>
+        <item>avedant.yogesh.met16@itbhu.ac.in</item>
+        <item>dmukesh.suresh.eee16@iitbhu.ac.in</item>
+        <item>sachit.maurya.met16@itbhu.ac.in</item>
+    </string-array>
+
+    <string-array name="team_emails_creative">
+        <item>rohit.verma.eee16@gmail.com</item>
+        <item>ayush.shukla.bce16@itbhu.ac.in</item>
+        <item>piyush.priyadarshi.phe16@itbhu.ac.in</item>
+        <item>aishwarya.sharma.cre16@itbhu.ac.in</item>
+        <item>piyush.bhardwaj.eee16@itbhu.ac.in</item>
+
+
+    </string-array>
+
+    <string-array name="team_fblinks_core">
+        <item>https://www.facebook.com/sanpritnayan.IITBHU</item>
+        <item>https://www.facebook.com/kalpeshbnsl</item>
+        <item>https://www.facebook.com/arun.suri.50</item>
+        <item>https://www.facebook.com/sumanthnark</item>
+        <item>https://www.facebook.com/g.m.r.mayank</item>
+        <item>https://www.facebook.com/prakarsh.saxena.14</item>
+        <item>https://m.facebook.com/sai.pavan.96742277</item>
+
+    </string-array>
+
+    <string-array name="team_fblinks_marketing">
+        <item>https://www.facebook.com/ujjawal.khare.96</item>
+        <item>https://www.facebook.com/profile.php?id=100004655221065</item>
+        <item>http://facebook.com/Gr8vicky</item>
+        <item>https://www.facebook.com/umed.0001?ref=bookmarks</item>
+        <item>https://www.facebook.com/nkhelwar?ref=bookmarks</item>
+
+    </string-array>
+
+    <string-array name="team_fblinks_publicity">
+        <item>https://www.facebook.com/utsav.gandhi.1809</item>
+        <item>https://www.facebook.com/mehtakeval20</item>
+        <item>https://www.facebook.com/rishabagarwal135</item>
+        <item>https://www.facebook.com/paraschauhan123</item>
+        <item>https://www.facebook.com/raviprakash.yadav.3348</item>
+        <item>https://www.facebook.com/mohitsharma1997</item>
+        <item>https://www.facebook.com/suryaprakash1505</item>
+        <item>https://www.facebook.com/shubham.kureel</item>
+        <item>https://www.facebook.com/surendra.meena.503</item>
+
+
+    </string-array>
+
+    <string-array name="team_fblinks_pubrel">
+        <item>https://www.facebook.com/shivansh.tripathi.58</item>
+        <item>https://www.facebook.com/aditya.k.thakur.35</item>
+
+    </string-array>
+
+    <string-array name="team_fblinks_events">
+        <item>https://www.facebook.com/apurv.goel.7</item>
+        <item>https://www.facebook.com/pankajprabhunarayan.jarha</item>
+
+    </string-array>
+
+    <string-array name="team_fblinks_opnlog">
+        <item>https://www.facebook.com/gunasai516</item>
+        <item>https://www.facebook.com/AVI916</item>
+        <item>https://www.facebook.com/adarsh.sonkar.9</item>
+        <item>https://www.facebook.com/pkumar1039</item>
+        <item>https://www.facebook.com/parijat.pushpam</item>
+        <item>https://www.facebook.com/</item>
+        <item>https://www.facebook.com/ankit.meena.75033149</item>
+        <item>https://www.facebook.com/</item>
+    </string-array>
+
+    <string-array name="team_fblinks_tech">
+        <item>https://www.facebook.com/utkarsh.sinha.5680</item>
+        <item>https://www.facebook.com</item>
+        <item>https://www.facebook.com/mukesh.deogune</item>
+        <item>https://www.facebook.com/sachit.maurya.5</item>
+
+    </string-array>
+
+    <string-array name="team_fblinks_creative">
+        <item>https://www.facebook.com/rohit.iitbhu</item>
+        <item>https://m.facebook.com/theayushshukla</item>
+        <item>https://www.facebook.com/</item>
+        <item>https://www.facebook.com/aishwarya.sharma.5074</item>
+        <item>https://www.facebook.com/piyush.bhardwaj.37604</item>
+
+    </string-array>
+
+    <string-array name="team_linkedin_urls_core">
+        <item>https://www.linkedin.com/in/sanprit-nayan-206436105/</item>
+        <item>https://www.linkedin.com/in/kalpesh-bansal-076173117/</item>
+        <item>https://www.linkedin.com/</item>
+        <item>https://www.linkedin.com/in/sai-sumanth-narkedamilli-67396b112/</item>
+        <item>https://www.linkedin.com/in/mayank-gupta-126092132/</item>
+        <item>https://www.linkedin.com/in/prakarsh-saxena-44b66a126/</item>
+        <item>https://www.linkedin.com/in/sai-pavan-699b07109</item>
+    </string-array>
+
+    <string-array name="team_linkedin_urls_markting">
+        <item>https://in.linkedin.com/in/ujjawal-khare-30b95b147</item>
+        <item>https://www.linkedin.com/in/jayant-chauhan-03a746138</item>
+        <item>https://www.linkedin.com/in/varunmaheshwari2612</item>
+        <item>https://www.linkedin.com/in/umed-singh-521356129/</item>
+        <item>www.linkedin.com/in/neelanchal-khelwar-082b41128</item>
+
+    </string-array>
+
+    <string-array name="team_linkedin_urls_publicity">
+        <item>https://www.linkedin.com/in/utsav-gandhi-003328152</item>
+        <item>https://www.linkedin.com/in/mehtakeval20</item>
+        <item>https://www.linkedin.com/in/rishabh-agarwal-287890149</item>
+        <item>https://www.linkedin.com/8299126893</item>
+        <item>https://www.linkedin.com/in/ravi-prakash-yadav-018743166</item>
+        <item>https://www.linkedin.com/in/mohit-sharma-208648156</item>
+        <item>https://www.linkedin.com/in/v-s-v-surya-prakash-663806166</item>
+        <item>http://linkedin.com/in/shubham-kureel-494307144</item>
+        <item>https://www.linkedin.com/in/surendra-kumar-meena-3036a4143</item>
+    </string-array>
+
+    <string-array name="team_linkedin_urls_pubrel">
+        <item>https://www.linkedin.com/in/shivansh-tripathi-87243a63</item>
+        <item>https://www.linkedin.com/in/aditya-thakur-782914157</item>
+    </string-array>
+
+    <string-array name="team_linkedin_urls_events">
+        <item>http://linkedin.com/in/apurv-goel-15313a147</item>
+        <item>https://www.linkedin.com/</item>
+    </string-array>
+
+    <string-array name="team_linkedin_urls_opnlog">
+        <item>https://www.linkedin.com/in/guna-sai-80b90814a</item>
+        <item>https://www.linkedin.com/in/avinash-kmr/</item>
+        <item>https://www.linkedin.com/in/adarsh-sonkar-27565b158</item>
+        <item>https://www.linkedin.com/in/prabhat-kumar-2bb501178</item>
+        <item>https://www.linkedin.com/</item>
+        <item>https://www.linkedin.com/</item>
+        <item>https://www.linkedin.com/in/ankit-meena-085150177</item>
+        <item>https://www.linkedin.com/</item>
+    </string-array>
+
+    <string-array name="team_linkedin_urls_tech">
+        <item>https://www.linkedin.com/in/utkarsh-sinha-a28b1b134</item>
+        <item>https://www.linkedin.com/in/vedant-a-6501b9135</item>
+        <item> https://www.linkedin.com/in/mukesh-deogune-66486614a?originalSubdomain=in</item>
+        <item>https://www.linkedin.com/in/sachit-maurya-02b3b0151</item>
+
+
+    </string-array>
+
+    <string-array name="team_linkedin_urls_creative">
+        <item>https://www.linkedin.com/in/rohit-verma-4724b3178/</item>
+        <item>https://www.linkedin.com/in/theayushshukla</item>
+        <item>https://www.linkedin.com/feed/</item>
+        <item>https://www.linkedin.com/in/aishwaryasharma49/</item>
+        <item>https://www.linkedin.com/</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+    </string-array>
+
+    <string-array name="sponsor_types">
+        <item>Title</item>
+        <item>Co-Title Sponsor</item>
+        <item>Powered By</item>
+        <item>Pronite Partner</item>
+        <item>Host Partner</item>
+        <item>Driven By</item>
+        <item>Associate Title Sponsors</item>
+        <item>Adventure Partner</item>
+        <item>Online Food Delivery Partner</item>
+        <item>Fragnance Partner</item>
+        <item>Footwear Partner</item>
+        <item>Ride Partner</item>
+        <item>Title Sponsor of Enquizta</item>
+        <item>Co-Title Sponsor of Kavya Manjar</item>
+        <item>Finance Partner</item>
+        <item>Platinum Sponsor</item>
+        <item>Vitamin Drink Partner</item>
+        <item>Technology Partner</item>
+        <item>Supply Chain Partner</item>
+        <item>Gold Sponsor</item>
+        <item>Talent Partner</item>
+        <item>Gate Preparation Partner</item>
+        <item>Youth Partner</item>
+        <item>Hospitality Partner</item>
+        <item>Co-Title Sponsor of Abhinay</item>
+        <item>Co-Title Sponsor of Mirage</item>
+        <item>Audio Partner</item>
+        <item>Workshop Partner</item>
+        <item>Hydration Partner</item>
+        <item>Co-Title Sponsor of Bandish</item>
+        <item>Nutrition Partner</item>
+        <item>Restaurant Sponsor</item>
+        <item>IAS Preparation Partner</item>
+        <item>Cab Partner</item>
+        <item>Lifestyle Partner</item>
+        <item>Grooming Partner</item>
+        <item>Fashion Partner</item>
+        <item>Watch Store Partner</item>
+        <item>Coffee Partner</item>
+        <item>Ornaments Partner</item>
+        <item>Mobile Partner</item>
+        <item>Restaurant Partner</item>
+        <item>Online Education Partner</item>
+        <item>Saloon Partner</item>
+        <item>Interior Partner</item>
+        <item>Cafe Partner</item>
+        <item>Meal Partner</item>
+        <item>Dosa Partner</item>
+        <item>Casual Wear Partner</item>
+        <item>Sports Partner</item>
+        <item>Fitness Partner</item>
+        <item>Handicraft Partner</item>
+        <item>Handicraft Partner</item>
+        <item>Artificial Jewellery Partner</item>
+        <item>Ethnic Wear Partner</item>
+        <item>Banking Partner</item>
+        <item>Cafe Partner</item>
+        <item>Coaching Partner</item>
+        <item>Fast Food Partner</item>
+        <item>Restaurant Partner</item>
+        <item>Cafe Partner</item>
+        <item>Restaurant Partner</item>
+        <item>Studio Partner</item>
+        <item>Media Partner</item>
+        <item>Security Partner</item>
+        <item>Learning Partner</item>
+        <item>Suiting Partner</item>
+        <item>Clothing Partner</item>
+        <item>Hotel Food Partner</item>
+        <item>Coverage Partner</item>
+        <item>Online Media Partner</item>
+        <item>Radio Partner</item>
+        <item>Online Media Partner</item>
+        <item>Online Media Partner</item>
+        <item>Online Media Partner</item>
+        <item>Online Media Partner</item>
+        <item>Online Media Partner</item>
+        <item>Social Cause Partner</item>
+        <item>Tuning Partner</item>
+        <item>Merchandise Partner</item>
+    </string-array>
+
+    <string-array name="sponsor_logo_urls">
+        <item>https://i.ibb.co/SsnSSBc/logo.png</item>
+        <item>https://i.ibb.co/xzdNvTH/apollo.jpg</item>
+        <item>https://i.ibb.co/tLzY51y/aisen.jpg</item>
+        <item>https://i.ibb.co/sF5Y1K9/redbull.jpg</item>
+        <item>https://i.ibb.co/n1mS9qF/oil-india.jpg</item>
+        <item>https://i.ibb.co/3c6hTbN/hero.png</item>
+        <item>https://i.ibb.co/whPcwv8/jk-lakshmi.jpg</item>
+        <item>https://i.ibb.co/L07k2qp/ktm.jpg</item>
+        <item>https://i.ibb.co/bj0qw6L/swiggy.jpg</item>
+        <item>https://i.ibb.co/wLmS5fN/denver.jpg</item>
+        <item>https://i.ibb.co/hm9Nn6j/sparx.jpg</item>
+        <item>https://i.ibb.co/SNx09ZC/royal-enfield.jpg</item>
+        <item>https://i.ibb.co/28h0D3p/ims.jpg</item>
+        <item>https://i.ibb.co/df42VHS/greenline.jpg</item>
+        <item>https://i.ibb.co/n1rsw5S/bajaj.jpg</item>
+        <item>https://i.ibb.co/wW7sDC8/red-chief.jpg</item>
+        <item>https://i.ibb.co/YkF6NV7/wild-drink.jpg</item>
+        <item>https://i.ibb.co/jrxFJ2W/codeflowtech.png</item>
+        <item>https://i.ibb.co/cgNqpC2/safe-express.jpg</item>
+        <item>https://i.ibb.co/Jy4WTR4/acc.jpg</item>
+        <item>https://i.ibb.co/0jpg2LL/tvf.jpg</item>
+        <item>https://i.ibb.co/rybSG5G/made-easy.jpg</item>
+        <item>https://i.ibb.co/xJfQZt0/Fastrack-Logo.jpg</item>
+        <item>https://i.ibb.co/hVBZWJS/OYO-Logo.jpg</item>
+        <item>https://i.ibb.co/qFLPgm4/ice.jpg</item>
+        <item>https://i.ibb.co/Y3LxTP0/fidm.png</item>
+        <item>https://i.ibb.co/ww6TLBf/zebronics.jpg</item>
+        <item>https://i.ibb.co/W08Dm2J/wac.jpg</item>
+        <item>https://i.ibb.co/b3pZLmh/bailley.png</item>
+        <item>https://i.ibb.co/8sFFrtX/safwana.jpg</item>
+        <item>https://i.ibb.co/nQH1Wfg/yogabar.jpg</item>
+        <item>https://i.ibb.co/KwGysnX/d2.jpg</item>
+        <item>https://i.ibb.co/ZYxSs83/careerworld.jpg</item>
+        <item>https://i.ibb.co/3WvWc09/CHIKU.jpg</item>
+        <item>https://i.ibb.co/BKHXqtv/Spykar-Logo.jpg</item>
+        <item>https://i.ibb.co/9t4GwwL/the-man-company.jpg</item>
+        <item>https://i.ibb.co/qpDMhNP/esha.png</item>
+        <item>https://i.ibb.co/Y8t5WGB/time-star.jpg</item>
+        <item>https://i.ibb.co/WkP1VVy/ccd.jpg</item>
+        <item>https://i.ibb.co/x8Scs2p/chetmani.jpg</item>
+        <item>https://i.ibb.co/m6fMWn7/Sangeetha-Mobiles.jpg</item>
+        <item>https://i.ibb.co/gWQmc1j/basant-vihar.jpg</item>
+        <item>https://i.ibb.co/Gtrfwgx/ETOOS.jpg</item>
+        <item>https://i.ibb.co/W2LksSm/obarba.jpg</item>
+        <item>https://i.ibb.co/7jfHMPH/ZUARI.jpg</item>
+        <item>https://i.ibb.co/bskpMTD/the-london-cafe.jpg</item>
+        <item>https://i.ibb.co/Vwttw3k/tastybuds.jpg </item>
+        <item>https://i.ibb.co/9ySQW68/mr-dosa.jpg</item>
+        <item>https://i.ibb.co/hyh1Lh4/FLYING-MACHINE.jpg</item>
+        <item>https://i.ibb.co/NKVw8qn/COSMOS.jpg</item>
+        <item>https://i.ibb.co/Js7L2sM/fitness-factory-sigra-varanasi-protein-supplement-wholesalers-ti1kc.jpg</item>
+        <item>https://i.ibb.co/qxvyYzk/ANJORA.jpg</item>
+        <item>https://i.ibb.co/vZK7pVp/shreema.jpg</item>
+        <item>https://i.ibb.co/DDKcYTD/A.jpg</item>
+        <item>https://i.ibb.co/fn53M5g/BAHAL.jpg</item>
+        <item>https://i.ibb.co/XCZjHrJ/Central-Bank-of-India-Logo-Vector-Image.jpg</item>
+        <item>https://i.ibb.co/4tHJCnn/cafe-de.jpg</item>
+        <item>https://i.ibb.co/d5p0hSn/catjee.jpg</item>
+        <item>https://i.ibb.co/P9xLQWy/One-Bite-Everbody-Knows-The-Rules.jpg</item>
+        <item>https://i.ibb.co/m0HqVbm/singh.jpg</item>
+        <item>https://i.ibb.co/Gvhcn3q/STRIKER-CAFE.jpg</item>
+        <item>https://i.ibb.co/0Z3qVKM/sha.jpg</item>
+        <item>https://i.ibb.co/WpWYDDv/tribute.jpg</item>item>
+        <item>https://i.ibb.co/ZT9gWtX/atkt.jpg</item>
+        <item>https://i.ibb.co/PD2kPBD/logo.jpg</item>
+        <item>https://i.ibb.co/T2LddTj/toppr-com-logo.jpg</item>
+        <item>https://i.ibb.co/gFHvZnW/raymond.jpg</item>
+        <item>https://i.ibb.co/3zj4j8t/prince-diwana.jpg</item>
+        <item>https://i.ibb.co/fNYpdqz/yelchiko-sigra-varanasi-north-indian-restaurants-w6vqb.jpg</item>
+        <item>https://i.ibb.co/j9KW8QR/coverage-1.png</item>
+        <item>https://i.ibb.co/6tmTjvW/cocktail.png</item>
+        <item>https://i.ibb.co/3Ws6xVb/radiocity.jpg</item>
+        <item>https://i.ibb.co/WgFCv9t/du.jpg</item>
+        <item>https://i.ibb.co/SR5QssN/ED.png</item>
+        <item>https://i.ibb.co/ZVLbYZ7/ignite.png</item>
+        <item>https://i.ibb.co/bKctLMN/YOUTH.png</item>
+        <item>https://i.ibb.co/Gnb416K/curriculum.png</item>
+        <item>https://i.ibb.co/8YZTBvx/cfcefda3-d4da-468f-a6bf-5a9fbb1c9514.jpg</item>
+        <item>https://i.ibb.co/DpmqZDC/bigfm.png</item>
+        <item>https://i.ibb.co/3RLqdx5/quadb.jpg</item>
+
+    </string-array>
+
+    <!-- schedule icons circle menu -->
+
+
+</resources>

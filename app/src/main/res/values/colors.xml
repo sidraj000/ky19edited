@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#868c9c</color>
+    <color name="colorPrimaryDark">#355c7d</color>
+    <color name="colorSecondary">#dddddd</color>
+    <color name="colorAccent">@color/no5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gold">#ffd700</color>
+    <color name="translucent">#88ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="pink">#355c7d</color>
+    <color name="darkpink">#f86060</color>
+    <color name="dark">#355c7d</color>
+
+    <color name="no1">#355c7d</color>
+    <color name="no2">#6c5b7b</color>
+    <color name="no3">#c06c84</color>
+    <color name="no4">#f67280</color>
+    <color name="no5">#c69176</color>
+    <color name="no6">#f67280</color>
+    <color name="no7">#c06c84</color>
+    <color name="no8">#6c5b7b</color>
+
+    <color name="team_back">#eeeeee</color>
+</resources>
