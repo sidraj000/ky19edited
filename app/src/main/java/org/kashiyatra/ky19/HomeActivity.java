@@ -32,6 +32,7 @@ import com.google.android.gms.common.GoogleApiAvailability;
 
 import org.kashiyatra.ky19.fragments.AboutFragment;
 import org.kashiyatra.ky19.fragments.EventsFragment;
+import org.kashiyatra.ky19.fragments.GalleryFragment;
 import org.kashiyatra.ky19.fragments.MapFragment;
 import org.kashiyatra.ky19.fragments.ScheduleFragment;
 import org.kashiyatra.ky19.fragments.SponsorsFragment;
@@ -44,7 +45,8 @@ public class HomeActivity extends AppCompatActivity
 
     SharedPreferences prefs;
     FloatingActionMenu materialDesignFAM;
-    FloatingActionButton floatingActionButton1, floatingActionButton2, floatingActionButton5, floatingActionButton6;
+    FloatingActionButton floatingActionButton1,
+            floatingActionButton2, floatingActionButton5, floatingActionButton6;
     DrawerLayout mDrawerLayout;
     private TabsPagerAdapter mTabsPagerAdapter;
     private TabLayout mTabLayout;
@@ -283,8 +285,10 @@ public class HomeActivity extends AppCompatActivity
             case R.id.nav_location:
                 mViewPager.setCurrentItem(3);
                 break;
-            case R.id.nav_sponsors:
+            case R.id.Gallery:
                 mViewPager.setCurrentItem(4);
+            case R.id.nav_sponsors:
+                mViewPager.setCurrentItem(5);
                 break;
             default:
                 break;
@@ -351,6 +355,8 @@ public class HomeActivity extends AppCompatActivity
                 case 3:
                     return MapFragment.newInstance();
                 case 4:
+                    return GalleryFragment.newInstance();
+                case 5:
                     return SponsorsFragment.newInstance();
                 default:
                     return AboutFragment.newInstance();
@@ -359,7 +365,7 @@ public class HomeActivity extends AppCompatActivity
 
         @Override
         public int getCount() {
-            return 5;
+            return 6;
         }
 
         @Override
@@ -374,7 +380,10 @@ public class HomeActivity extends AppCompatActivity
                 case 3:
                     return "Location";
                 case 4:
+                    return "Gallery";
+                case 5:
                     return "Sponsors";
+
                 default:
                     return "About";
             }

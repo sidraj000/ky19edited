@@ -8,6 +8,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.OvershootInterpolator;
+import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
@@ -34,7 +35,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class NewLoginActivity extends AppCompatActivity {
-
+    Button button;
     public int PERMISSIONS_REQUEST = 100;
     private FirebaseAuth mAuth;
     public static final int RC_SIGN_IN=1;
@@ -50,6 +51,14 @@ public class NewLoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_activity_login);
+        button=findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(NewLoginActivity.this, HomeActivity.class));
+
+            }
+        });
         mAuth = FirebaseAuth.getInstance();
         signInButton = findViewById(R.id.sign_in);
         signInButton.setSize(SignInButton.SIZE_STANDARD);
