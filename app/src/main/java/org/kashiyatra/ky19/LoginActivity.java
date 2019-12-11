@@ -40,6 +40,7 @@ import okhttp3.Response;
 
 public class LoginActivity extends AppCompatActivity {
     private final int RC_SIGN_IN = 1234;
+
     private Button reg_later_button, reg_now_button, ky_login_button, submit_button;
     private EditText ky_no_input;
     private com.google.android.gms.common.SignInButton g_login_button;
