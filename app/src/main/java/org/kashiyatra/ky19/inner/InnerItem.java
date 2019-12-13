@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.drawable.BitmapDrawable;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -27,6 +28,7 @@ public class InnerItem  extends com.ramotion.garlandview.inner.InnerItem {
     public final TextView mAddress;
     public final ImageView mAvatar;
     public final View mAvatarBorder;
+    public final FrameLayout mLayout;
     public int position;
 
     private InnerData mInnerData;
@@ -40,6 +42,7 @@ public class InnerItem  extends com.ramotion.garlandview.inner.InnerItem {
         mAddress = (TextView) itemView.findViewById(R.id.tv_address);
         mAvatar = (ImageView) itemView.findViewById(R.id.avatar);
         mAvatarBorder = itemView.findViewById(R.id.avatar_border);
+        mLayout=itemView.findViewById(R.id.background_layout);
         mInnerLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,13 +69,13 @@ public class InnerItem  extends com.ramotion.garlandview.inner.InnerItem {
         mInnerData = data;
         mHeader.setText(data.title);
         mName.setText(data.name);
-        mAddress.setVisibility(View.GONE);
    /*    GlideApp.with(itemView.getContext())
                 .load(data.avatarUrl)
                 .placeholder(R.drawable.avatar_placeholder)
                 .transform(new CircleCrop())
                 .into(mAvatar);*/
-        mAvatar.setImageBitmap(data.avatarUrl);
+        mAvatar.setBackground(data.avatarUrl);
+
 
     }
 

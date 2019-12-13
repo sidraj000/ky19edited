@@ -65,7 +65,7 @@ public class OuterItem extends HeaderItem {
     private final TextView mInfo;
 
     private final View mMiddle;
-    private final View mMiddleAnswer;
+  //  private final View mMiddleAnswer;
     private final View mFooter;
 
     private final List<View> mMiddleCollapsible = new ArrayList<>(2);
@@ -96,7 +96,7 @@ public class OuterItem extends HeaderItem {
         mAvatar = (ImageView) itemView.findViewById(R.id.avatar);
 
         mMiddle = itemView.findViewById(R.id.header_middle);
-        mMiddleAnswer= itemView.findViewById(R.id.header_middle_answer);
+      //  mMiddleAnswer= itemView.findViewById(R.id.header_middle_answer);
         mFooter = itemView.findViewById(R.id.header_footer);
 
         mMiddleCollapsible.add((View)mAvatar.getParent());
@@ -157,7 +157,7 @@ public class OuterItem extends HeaderItem {
         ((org.kashiyatra.ky19.inner.InnerAdapter)mRecyclerView.getAdapter()).addData(tail);
 
 
-        mAvatar.setImageBitmap(header.avatarUrl);
+        mAvatar.setBackground(header.avatarUrl);
 
 
         final String title1 = header.title;
@@ -203,9 +203,9 @@ public class OuterItem extends HeaderItem {
         ViewCompat.setScaleY(mFooter, footerRatio);
         ViewCompat.setAlpha(mFooter, footerRatio);
 
-        ViewCompat.setPivotY(mMiddleAnswer, mMiddleAnswer.getHeight());
-        ViewCompat.setScaleY(mMiddleAnswer, 1f - answerRatio);
-        ViewCompat.setAlpha(mMiddleAnswer, 0.5f - answerRatio);
+       // ViewCompat.setPivotY(mMiddleAnswer, mMiddleAnswer.getHeight());
+        //ViewCompat.setScaleY(mMiddleAnswer, 1f - answerRatio);
+        //ViewCompat.setAlpha(mMiddleAnswer, 0.5f - answerRatio);
 
         ViewCompat.setAlpha(mHeaderCaption1, answerRatio);
         ViewCompat.setAlpha(mHeaderCaption2, 1f - answerRatio);

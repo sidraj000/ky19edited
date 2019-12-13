@@ -280,7 +280,7 @@ public class HomeActivity extends AppCompatActivity
                 mViewPager.setCurrentItem(1);
                 break;
             case R.id.nav_events:
-                mViewPager.setCurrentItem(2);
+                startActivity(new Intent(HomeActivity.this,EventsActivity.class));
                 break;
             case R.id.nav_location:
                 mViewPager.setCurrentItem(3);
