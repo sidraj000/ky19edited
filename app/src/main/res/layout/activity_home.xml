@@ -23,6 +23,6 @@
         app:headerLayout="@layout/nav_header_home"
         app:itemIconTint="@color/white"
         app:itemTextColor="@color/white"
-        app:menu="@menu/activity_home_drawer" />
+        app:menu="@menu/bottom_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

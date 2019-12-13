@@ -14,6 +14,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.core.view.GravityCompat;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -286,9 +287,12 @@ public class HomeActivity extends AppCompatActivity
                 mViewPager.setCurrentItem(3);
                 break;
             case R.id.Gallery:
-                mViewPager.setCurrentItem(4);
+
+                Intent intent1=new Intent(getApplicationContext(),GalleryActivty.class);
+                startActivity(intent1);
+                break;
             case R.id.nav_sponsors:
-                mViewPager.setCurrentItem(5);
+                mViewPager.setCurrentItem(4);
                 break;
             default:
                 break;
@@ -351,13 +355,11 @@ public class HomeActivity extends AppCompatActivity
                 case 1:
                     return ScheduleFragment.newInstance();
                 case 2:
-                    return EventsFragment.newInstance();
-                case 3:
                     return MapFragment.newInstance();
-                case 4:
-                    return GalleryFragment.newInstance();
-                case 5:
+
+                case 3:
                     return SponsorsFragment.newInstance();
+
                 default:
                     return AboutFragment.newInstance();
             }
@@ -365,7 +367,7 @@ public class HomeActivity extends AppCompatActivity
 
         @Override
         public int getCount() {
-            return 6;
+            return 4;
         }
 
         @Override
@@ -376,12 +378,9 @@ public class HomeActivity extends AppCompatActivity
                 case 1:
                     return "Schedule";
                 case 2:
-                    return "Events";
-                case 3:
                     return "Location";
-                case 4:
-                    return "Gallery";
-                case 5:
+
+                case 3:
                     return "Sponsors";
 
                 default:
