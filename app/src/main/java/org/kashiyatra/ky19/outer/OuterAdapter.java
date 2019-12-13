@@ -1,6 +1,7 @@
 package org.kashiyatra.ky19.outer;
 
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,6 @@ public class OuterAdapter extends TailAdapter<OuterItem> {
 
     public OuterAdapter(List<List<InnerData>> data) {
         this.mData = data;
-
         mPool = new RecyclerView.RecycledViewPool();
         mPool.setMaxRecycledViews(0, POOL_SIZE);
     }

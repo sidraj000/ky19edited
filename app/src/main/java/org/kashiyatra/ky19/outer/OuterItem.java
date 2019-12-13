@@ -156,16 +156,13 @@ public class OuterItem extends HeaderItem {
         mRecyclerView.setLayoutManager(new InnerLayoutManager());
         ((org.kashiyatra.ky19.inner.InnerAdapter)mRecyclerView.getAdapter()).addData(tail);
 
-        GlideApp.with(context)
-                .load(header.avatarUrl)
-                .placeholder(R.drawable.avatar_placeholder)
-                .transform(new CircleCrop())
-                .into(mAvatar);
+
+        mAvatar.setImageBitmap(header.avatarUrl);
 
 
-        final String title1 = header.title + "?";
+        final String title1 = header.title;
 
-        final Spannable title2 = new SpannableString(header.title + "? - " + header.name);
+        final Spannable title2 = new SpannableString(header.title + " " + header.name);
         title2.setSpan(new AbsoluteSizeSpan(mTitleSize1), 0, title1.length(), SPAN_INCLUSIVE_INCLUSIVE);
         title2.setSpan(new AbsoluteSizeSpan(mTitleSize2), title1.length(), title2.length(), SPAN_INCLUSIVE_INCLUSIVE);
         title2.setSpan(new ForegroundColorSpan(Color.argb(204, 255, 255, 255)), title1.length(), title2.length(), SPAN_INCLUSIVE_INCLUSIVE);
@@ -173,8 +170,8 @@ public class OuterItem extends HeaderItem {
         mHeaderCaption1.setText(title1);
         mHeaderCaption2.setText(title2);
 
-        mName.setText("name");
-        mInfo.setText("info");
+        mName.setText(header.name);
+        mInfo.setVisibility(View.GONE);
     }
 
     void clearContent() {
