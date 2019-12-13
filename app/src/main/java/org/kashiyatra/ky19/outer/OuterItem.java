@@ -18,6 +18,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.ramotion.garlandview.header.HeaderDecorator;
 import com.ramotion.garlandview.header.HeaderItem;
 import com.ramotion.garlandview.inner.InnerLayoutManager;
@@ -27,6 +28,7 @@ import com.ramotion.garlandview.inner.InnerRecyclerView;
 import org.kashiyatra.ky19.R;
 import org.kashiyatra.ky19.inner.InnerAdapter;
 import org.kashiyatra.ky19.inner.InnerData;
+import org.kashiyatra.ky19.utils.GlideApp;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -154,13 +156,13 @@ public class OuterItem extends HeaderItem {
         mRecyclerView.setLayoutManager(new InnerLayoutManager());
         ((org.kashiyatra.ky19.inner.InnerAdapter)mRecyclerView.getAdapter()).addData(tail);
 
-       /* GlideApp.with(context)
+        GlideApp.with(context)
                 .load(header.avatarUrl)
                 .placeholder(R.drawable.avatar_placeholder)
                 .transform(new CircleCrop())
                 .into(mAvatar);
 
-*/
+
         final String title1 = header.title + "?";
 
         final Spannable title2 = new SpannableString(header.title + "? - " + header.name);

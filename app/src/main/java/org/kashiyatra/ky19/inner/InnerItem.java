@@ -1,10 +1,13 @@
 package org.kashiyatra.ky19.inner;
 
 
+import android.graphics.drawable.BitmapDrawable;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 
 import org.greenrobot.eventbus.EventBus;
 import org.kashiyatra.ky19.R;
@@ -64,12 +67,12 @@ public class InnerItem  extends com.ramotion.garlandview.inner.InnerItem {
         mName.setText(data.name);
         mAddress.setText( data.address);
 
-     /*   GlideApp.with(itemView.getContext())
+   /*    GlideApp.with(itemView.getContext())
                 .load(data.avatarUrl)
                 .placeholder(R.drawable.avatar_placeholder)
                 .transform(new CircleCrop())
                 .into(mAvatar);*/
-        mAvatar.setImageAlpha(R.drawable.avatar_placeholder);
+        mAvatar.setImageBitmap(data.avatarUrl);
     }
 
 }
