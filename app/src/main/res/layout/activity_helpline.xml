@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="#f8f4e3"
+    android:id="@+id/helpline"
+    tools:context="org.kashiyatra.ky19.HelplineActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="16dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="37dp"
+                card_view:cardElevation="6dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true"
+                android:outlineAmbientShadowColor="@color/black"
+                card_view:cardPreventCornerOverlap="false">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/no5">
+
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:text="Surya Prakash"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="end"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Helpdesk"/>
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_marginEnd="155dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="12dp"
+                        android:background="#2196f3"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="5dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:text="9441764781"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:src="@drawable/telephone"
+                card_view:civ_border_color="@color/colorPrimary"
+                card_view:civ_border_width="2dp" />
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:textColor="@color/transparent"
+                android:padding="5dp"
+                android:onClick="call"
+                android:text="9441764781"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="16dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="37dp"
+                card_view:cardElevation="6dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true"
+                android:outlineAmbientShadowColor="@color/black"
+                card_view:cardPreventCornerOverlap="false">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/no5">
+
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:text="Aishwarya Sharma"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="end"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Women Helpline"/>
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_marginEnd="155dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="12dp"
+                        android:background="#2196f3"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="5dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:text="8840006029"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:src="@drawable/telephone"
+                card_view:civ_border_color="@color/colorPrimary"
+                card_view:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:textColor="@color/transparent"
+                android:padding="5dp"
+                android:onClick="call"
+                android:text="8840006029"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="16dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="37dp"
+                card_view:cardElevation="6dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true"
+                android:outlineAmbientShadowColor="@color/black"
+                card_view:cardPreventCornerOverlap="false">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/no5">
+
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:text="Apurv Goel"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="end"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Events"/>
+
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_marginEnd="155dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="12dp"
+                        android:background="#2196f3"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="5dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:text="9718269521"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:src="@drawable/telephone"
+                card_view:civ_border_color="@color/colorPrimary"
+                card_view:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:textColor="@color/transparent"
+                android:onClick="call"
+                android:text="9718269521"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="16dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="37dp"
+                card_view:cardElevation="6dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true"
+                android:outlineAmbientShadowColor="@color/black"
+                card_view:cardPreventCornerOverlap="false">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/no5">
+
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:text="Rishabh Agarwal"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="end"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Pronites"/>
+
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_marginEnd="155dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="12dp"
+                        android:background="#2196f3"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="5dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:text="8979971447"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:src="@drawable/telephone"
+                card_view:civ_border_color="@color/colorPrimary"
+                card_view:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:textColor="@color/transparent"
+                android:onClick="call"
+                android:text="8979971447"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="16dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="37dp"
+                card_view:cardElevation="6dp"
+                card_view:cardCornerRadius="10dp"
+                card_view:cardUseCompatPadding="true"
+                android:outlineAmbientShadowColor="@color/black"
+
+                   card_view:cardPreventCornerOverlap="false">
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/no5">
+
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:textStyle="bold"
+                        android:text="Pratik Siddheshwar"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_gravity="end"
+                        android:textSize="15sp"
+                        android:textColor="@color/white"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="Hospitality"/>
+
+                    <View
+                        android:layout_width="100dp"
+                        android:layout_marginEnd="155dp"
+                        android:layout_height="3dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="12dp"
+                        android:background="#2196f3"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="5dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="13dp"
+                        android:textColor="@color/white"
+                        android:text="8765388497"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:src="@drawable/telephone"
+                card_view:civ_border_color="@color/colorPrimary"
+                card_view:civ_border_width="2dp" />
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="left"
+                android:elevation="20dp"
+                android:padding="5dp"
+                android:textColor="@color/transparent"
+                android:onClick="call"
+                android:text="8765388497"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mail_button"
+            android:padding="5dp"
+            android:src="@drawable/ic_action_name"
+            fab:fab_colorNormal="@color/dark"
+            fab:fab_colorPressed="@color/darkpink"
+            fab:fab_size="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+</RelativeLayout>

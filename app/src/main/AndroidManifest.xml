@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.kashiyatra.ky19">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EventsActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity><!-- <service -->
+        <!-- android:name="org.kashiyatra.ky19.services.MyFirebaseInstanceIDService" -->
+        <!-- android:exported="false"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <activity android:name=".UserProfile"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity android:name=".GalleryActivty"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventActivity"
+            android:label="@string/title_activity_event"
+            android:parentActivityName=".EventListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.EventListActivity" />
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity
+            android:name=".EventListActivity"
+            android:label="@string/title_activity_eventlist"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeEvents">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme" />
+        <activity
+            android:name=".PhotoActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeDay">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".UpdatesActivity"
+            android:label="Updates"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label=""
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MYTheme_transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".MerchandiseActivity"
+            android:label=""
+            android:launchMode="singleTask"
+            android:parentActivityName=".ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MYTheme_transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".TeamActivity"
+            android:label=""
+            android:launchMode="singleTask"
+            android:parentActivityName=".ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MYTheme_transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".FaqActivity"
+            android:label=""
+            android:launchMode="singleTask"
+            android:parentActivityName=".ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MYTheme_transparent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.ProfileActivity" />
+        </activity>
+        <activity
+            android:name=".ConcertsActivity"
+            android:label="Concerts"
+            android:launchMode="singleTask"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyThemeDay">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".HelplineActivity"
+            android:label="Helpline"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.CoreActivity"
+            android:label="Core Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.EventsTeamActivity"
+            android:label="Events Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.MarketingActivity"
+            android:label="Marketing Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.OpnLogActivity"
+            android:label="Operations And Logistics Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.PublicityActivity"
+            android:label="Publicity Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.PubRelActivity"
+            android:label="Public Relations Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.TechActivity"
+            android:label="Technical Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+        <activity
+            android:name=".TeamGroups.CreativeActivity"
+            android:label="Creative Team"
+            android:parentActivityName=".TeamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.kashiyatra.ky19.TeamActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

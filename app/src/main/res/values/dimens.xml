@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="title_text_size">24sp</dimen>
+    <dimen name="desc_text_size">18sp</dimen>
+    <dimen name="input_label_vertical_spacing">8dp</dimen>
+    <dimen name="input_label_horizontal_spacing">4dp</dimen>
+    <dimen name="design_fab_image_size" tools:override="true">56dp</dimen>
+
+
+    <dimen name="inner_item_offset">16dp</dimen>
+    <dimen name="inner_item_height">150dp</dimen>
+    <dimen name="outer_item_height">150dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp120">120dp</dimen>
+
+    <dimen name="header_title1_text_size">22sp</dimen>
+    <dimen name="header_title2_text_size">20sp</dimen>
+    <dimen name="header_title2_name_text_size">17sp</dimen>
+    <dimen name="header_name_text_size">17sp</dimen>
+    <dimen name="header_info_text_size">14sp</dimen>
+    <dimen name="header_footer_text_size">13sp</dimen>
+    <dimen name="header_avatar_size">45dp</dimen>
+    <dimen name="header_icon_size">14dp</dimen>
+
+    <dimen name="item_title_text_size">18sp</dimen>
+    <dimen name="item_name_text_size">@dimen/header_name_text_size</dimen>
+    <dimen name="item_info_text_size">@dimen/header_info_text_size</dimen>
+    <dimen name="item_footer_text_size">@dimen/header_footer_text_size</dimen>
+    <dimen name="item_avatar_border">1dp</dimen>
+
+    <dimen name="item_avatar_size">@dimen/header_avatar_size</dimen>
+    <dimen name="item_icon_size">@dimen/header_icon_size</dimen>
+
+    <dimen name="details_avatar_border">5dp</dimen>
+
+    <dimen name="dp160">160dp</dimen>
+    <dimen name="dp190">190dp</dimen>
+    <dimen name="profile_avatar_h_offset">16dp</dimen>
+    <dimen name="profile_avatar_v_offset">8dp</dimen>
+    <dimen name="profile_avatar_size">100dp</dimen>
+
+    <dimen name="profile_texts_h_offset">32dp</dimen>
+    <dimen name="profile_texts_v_max_offset">66dp</dimen>
+    <dimen name="profile_texts_v_min_offset">8dp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+</resources>
