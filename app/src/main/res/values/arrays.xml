@@ -230,7 +230,6 @@
     <string-array name="toolika_subevent_rules">
         <item>@string/rapid_fire_rules</item>
         <item>@string/spoil_the_tees_rules</item>
-
         <item>@string/vastra_shilp_rules</item>
         <item>@string/rangbaazi_rules</item>
         <item>@string/face_painting_rules</item>
@@ -403,82 +402,64 @@
 
 
     <string-array name="team_names_core">
-        <item>Sanprit Nayan</item>
-        <item>Kalpesh Bansal</item>
-        <item>Arun Suri</item>
-        <item>Sai Sumanth</item>
-        <item>Mayank Gupta</item>
-        <item>Prakarsh Saxena</item>
-        <item>Sai Pavan</item>
-
-
+        <item>Anshula Pandey</item>
+        <item>Shreyash Baijal</item>
+        <item>Apoorv Bansal</item>
 
     </string-array>
 
     <string-array name="team_names_marketing">
-        <item>Ujjawal Khare</item>
-        <item>Jayant Chauhan</item>
-        <item>Varun Maheshwari</item>
-        <item>Umed Singh </item>
-        <item>Neelanchal Khelwar</item>
+        <item>Priyanshu Raj</item>
+        <item>Yashika Choudhary</item>
+        <item>Tanay Dubey</item>
+        <item>Jagdish Daad</item>
     </string-array>
 
     <string-array name="team_names_publicity">
-        <item>Utsav Gandhi </item>
-        <item>Keval Mehta</item>
-        <item>Rishabh Agarwal</item>
-        <item>Paras Singh Chauhan</item>
-        <item>Ravi Prakash Yadav</item>
-        <item>Mohit Sharma</item>
-        <item>Surya Prakash </item>
-        <item>Shubham Kureel</item>
-        <item>Surendra Meena</item>
+        <item>Vasu Aggrawal</item>
+        <item>Naveen Meena</item>
+        <item>Pankaj kumar kilaniya</item>
+        <item>Yash Rajpoot</item>
+        <item>Harsh Mehra</item>
+        <item>Neeraj Devadwal</item>
+        <item>Sharad Godke</item>
+        <item>Utkarsh Dwivedi</item>
+        <item>Vaibhav</item>
     </string-array>
 
     <string-array name="team_names_pubrel">
-        <item>Shivansh Tripathi </item>
-        <item>Thakur Aditya Kumar</item>
+        <item>Ansh Agrawal</item>
+        <item>Arjun Salyan</item>
     </string-array>
 
     <string-array name="team_names_events">
-        <item>Apurv Goel</item>
-        <item>Pankaj P N Jarha</item>
+        <item>R Manoj Maurya</item>
+        <item>Kamal Kamle</item>
     </string-array>
 
     <string-array name="team_names_opnlog">
-        <item>Guna Sai</item>
-        <item>Avinash Kumar</item>
-        <item>Adarsh Sonkar</item>
-        <item>Prabhat Kumar</item>
-        <item>Parijat Pushpam</item>
-        <item>Pratik Siddheshwar</item>
-        <item>Ankit Meena</item>
-        <item>Ashutosh Meena</item>
+        <item>Daram Nitheesh</item>
+        <item>Aravind</item>
+        <item>Atri Kumar Patel</item>
+        <item>Keshan sai Narendra Kumar</item>
+        <item>E Kiran Kumar Goud</item>
+
     </string-array>
 
     <string-array name="team_names_tech">
-        <item>Utkarsh Sinha</item>
-        <item>Vedant Agnihotri</item>
-        <item>Mukesh Deogune</item>
-        <item>Sachit Maurya</item>
+        <item>Vaibhav Kumar</item>
+
     </string-array>
 
     <string-array name="team_names_creative">
-        <item>Rohit Verma</item>
-        <item>Ayush Shukla </item>
-        <item>Piyush Priyadarshi</item>
-        <item>Aishwarya Sharma</item>
-        <item>Piyush Bhardwaj</item>
+        <item>Anjali</item>
+
     </string-array>
 
     <string-array name="team_roles_core">
-        <item>Convener</item>
-        <item>Co-Convener</item>
-        <item>Co-Convener</item>
-        <item>Chief Advisor</item>
-        <item>Chief Advisor</item>
-        <item>Chief Advisor</item>
-        <item>General Secretary, Cultural Council</item>
+        <item>Jt. General Secretary</item>
+        <item>Jt. General Secretary</item>
+        <item>General Secretary</item>
     </string-array>
 
     <string-array name="team_roles_marketing">
@@ -486,19 +467,20 @@
         <item>Marketing</item>
         <item>Marketing</item>
         <item>Marketing</item>
-        <item>Marketing</item>
+
     </string-array>
 
     <string-array name="team_roles_publicity">
-        <item>Publicity</item>
-        <item>Publicity</item>
-        <item>Publicity</item>
-        <item>Publicity</item>
-        <item>Publicity</item>
-        <item>Media and Publicity</item>
-        <item>Publicity</item>
-        <item>Publicity</item>
-        <item>Publicity</item>
+        <item>internal publicity</item>
+        <item>internal publicity</item>
+        <item>internal publicity</item>
+        <item>internal publicity</item>
+        <item>internal publicity</item>
+        <item>internal publicity</item>
+        <item>External publicity</item>
+        <item>External publicity</item>
+        <item>External publicity</item>
+
     </string-array>
 
     <string-array name="team_roles_pubrel">
@@ -516,27 +498,21 @@
         <item>Operations and Logistics</item>
         <item>Operations and Logistics</item>
         <item>Operations and Logistics</item>
-        <item>Security</item>
-        <item>Hospitality</item>
-        <item>Hospitality</item>
         <item>Operations and Logistics</item>
         <item>Operations and Logistics</item>
+
+
     </string-array>
 
     <string-array name="team_roles_tech">
-        <item>Web Team</item>
-        <item>Web Team</item>
-        <item>Web Team</item>
-
         <item>Android App</item>
     </string-array>
 
     <string-array name="team_roles_creative">
         <item>Creative Team</item>
-        <item>Creative Team</item>
-        <item>Creative Team</item>
-        <item>Creative Team</item>
-        <item>Creative Team</item>
+
+
+
     </string-array>
 
     <string-array name="team_photo_urls_core">
@@ -618,40 +594,33 @@
     </string-array>
 
     <string-array name="team_emails_core">
-        <item>sanprit.nayan.met15@iitbhu.ac.in</item>
-        <item>kalpesh.bansal.eee15@iitbhu.ac.in</item>
-        <item>arun.suri.phe15@iitbhu.ac.in</item>
-        <item>nsai.sumanth.eee15@iitbhu.ac.in</item>
-        <item>mayank.gupta.phe15@iitbhu.ac.in</item>
-        <item>prakarsh.saxena.met15@iitbhu.ac.in</item>
-        <item>saipavan.sn.met15@itbhu.ac.in</item>
+        <item>anshula.pandey.civ17@itbhu.ac.in</item>
+        <item>shreyash.baijal.cer17@itbhu.ac.in</item>
+        <item>apoorv.bansal.mat16@itbhu.ac.in</item>
 
     </string-array>
 
     <string-array name="team_emails_marketing">
-        <item>ujjwal.khare.civ16@iitbhu.ac.in</item>
-        <item>jayant.chauhan.mec16@itbhu.ac.in</item>
-        <item>varun.maheshwari.min16@itbhu.ac.in</item>
-        <item>Umed.singh.mec16@iitbhu.ac.in</item>
-        <item>neelanchal.khelwar.met16@iitbhu.ac.in</item>
+        <item>anshula.pandey.civ17@itbhu.ac.in</item>
+        <item>shreyash.baijal.cer17@itbhu.ac.in</item>
+        <item>apoorv.bansal.mat16@itbhu.ac.in</item>
 
     </string-array>
 
     <string-array name="team_emails_publicity">
-        <item>utsav.gandhi.mec16@iitbhu.ac.in</item>
-        <item>mehtak.nilesh.cer16@iitbhu.ac.in</item>
-        <item>rishabh.agarwal.met16@itbhu.ac.in</item>
-        <item>psingh.chauhan.cer16@itbhu.ac.in</item>
-        <item>raviprakash.yadav.met16@itbhu.ac.in</item>
-        <item>mohit.sharma.che16@itbhu.ac.in</item>
-        <item>vsvsurya.prakash.civ16@itbhu.ac.in</item>
-        <item>shubham.kureel.phy16@itbhu.ac.in</item>
-        <item>surendrak.meena.cer16@itbhu.ac</item>
+        <item>vasu.agrawal.bce17@iitbhu.ac.in</item>
+        <item>naveen.student.mec17@iitbhu.ac</item>
+        <item>pankaj.kkilaniya.civ17@iitbhu.ac.in</item>
+        <item>yash.wsingh.mec17@iitbhu.ac.in</item>
+        <item>harsh.kmehra.civ17@iitbhu.ac.in</item>
+        <item>neeraj.devadwal.met17@iitbhu.ac.in</item>
+        <item>utkarsh.dwivedi.mec17@itbhu.ac.in</item>
+        <item>vaibhav.student.mec17@itbhu.ac.in</item>
     </string-array>
 
     <string-array name="team_emails_pubrel">
-        <item>shivansh.tripathi.mec16@itbhu.ac</item>
-        <item>taknaveen.kumar.mec16@itbhu.ac.in</item>
+        <item>ansh.agrawal.che17@iitbhu.ac.in</item>
+        <item>arjun.salyan.che17@itbhh.ac.in</item>
 
     </string-array>
 
@@ -662,104 +631,77 @@
     </string-array>
 
     <string-array name="team_emails_opnlog">
-        <item>gaddamguna.sai.min16@itbhu.ac.in</item>
-        <item>AVINASH.KUMAR.CIV16@IITBHU.AC.IN</item>
-        <item>adarsh.sonkar.eee16@itbhu.ac.in</item>
-        <item>prabhat.kumar.civ16@itbhu.ac.in</item>
-        <item>parijat.pushpam.civ16@itbhu.ac.in</item>
-        <item>pratik.siddeshwar.civ16@itbhu.ac.in</item>
-        <item>ankit.meena.phe17@itbhu.ac.in</item>
-        <item>ashutosh.meena.chy17@itbhu.ac.in</item>
+        <item>daram.nitheesh.min17@iitbhu.ac.in</item>
+        <item>bethapudi.aravind.min17@itbhu.ac.in</item>
+        <item>kesana.snkumar.cer17@itbhu.ac.in</item>
+        <item>ekiran.kgoud.min17@itbhu.ac.in</item>
+
     </string-array>
 
     <string-array name="team_emails_tech">
-        <item>utkarsh.sinha.met16@itbhu.ac.in</item>
-        <item>avedant.yogesh.met16@itbhu.ac.in</item>
-        <item>dmukesh.suresh.eee16@iitbhu.ac.in</item>
-        <item>sachit.maurya.met16@itbhu.ac.in</item>
+        <item>vaibhav.kumar.civ17@itbhu.ac.in</item>
+
     </string-array>
 
     <string-array name="team_emails_creative">
-        <item>rohit.verma.eee16@gmail.com</item>
-        <item>ayush.shukla.bce16@itbhu.ac.in</item>
-        <item>piyush.priyadarshi.phe16@itbhu.ac.in</item>
-        <item>aishwarya.sharma.cre16@itbhu.ac.in</item>
-        <item>piyush.bhardwaj.eee16@itbhu.ac.in</item>
-
+        <item>anjali.student.che17@itbhu.ac.in</item>
 
     </string-array>
 
     <string-array name="team_fblinks_core">
-        <item>https://www.facebook.com/sanpritnayan.IITBHU</item>
-        <item>https://www.facebook.com/kalpeshbnsl</item>
-        <item>https://www.facebook.com/arun.suri.50</item>
-        <item>https://www.facebook.com/sumanthnark</item>
-        <item>https://www.facebook.com/g.m.r.mayank</item>
-        <item>https://www.facebook.com/prakarsh.saxena.14</item>
-        <item>https://m.facebook.com/sai.pavan.96742277</item>
+        <item>https://www.facebook.com/anshula.pandey.14</item>
+        <item>https://www.facebook.com/sbflb</item>
+        <item>https://www.facebook.com/apoorv.bansal.iitbhu</item>
 
     </string-array>
 
     <string-array name="team_fblinks_marketing">
-        <item>https://www.facebook.com/ujjawal.khare.96</item>
-        <item>https://www.facebook.com/profile.php?id=100004655221065</item>
-        <item>http://facebook.com/Gr8vicky</item>
-        <item>https://www.facebook.com/umed.0001?ref=bookmarks</item>
-        <item>https://www.facebook.com/nkhelwar?ref=bookmarks</item>
+        <item>https://www.facebook.com/profile.php?id=100015317821448</item>
+        <item>https://www.facebook.com/cyashu99</item>
+        <item>https://www.facebook.com/tanay.dubey.77</item>
+       <item> https://www.facebook.com/jdaad2</item>
 
     </string-array>
 
     <string-array name="team_fblinks_publicity">
-        <item>https://www.facebook.com/utsav.gandhi.1809</item>
-        <item>https://www.facebook.com/mehtakeval20</item>
-        <item>https://www.facebook.com/rishabagarwal135</item>
-        <item>https://www.facebook.com/paraschauhan123</item>
-        <item>https://www.facebook.com/raviprakash.yadav.3348</item>
-        <item>https://www.facebook.com/mohitsharma1997</item>
-        <item>https://www.facebook.com/suryaprakash1505</item>
-        <item>https://www.facebook.com/shubham.kureel</item>
-        <item>https://www.facebook.com/surendra.meena.503</item>
-
-
+        <item>https://m.facebook.com/vasu.agrawal.33?ref=bookmarks</item>
+        <item>""</item>
+        <item>https://www.facebook.com/pankaj.kkilaniya</item>
+        <item>https://www.facebook.com/beingyashrajput</item>
+        <item>https://www.facebook.com/hani.mehra.12</item>
+        <item>https://www.facebook.com/neeraj.devadwal </item>
+        <item>https://www.facebook.com/sharaddghodke</item>
+        <item>https://www.facebook.com/utkarsh.dwivedi.7583</item>
+        <item>https://www.facebook.com/vaibhav.mehta.777363</item>
     </string-array>
 
     <string-array name="team_fblinks_pubrel">
-        <item>https://www.facebook.com/shivansh.tripathi.58</item>
-        <item>https://www.facebook.com/aditya.k.thakur.35</item>
+        <item>https://m.facebook.com/ansh.agrawal.315</item>
+        <item>https://www.facebook.com/salyan.arjun</item>
 
     </string-array>
 
     <string-array name="team_fblinks_events">
-        <item>https://www.facebook.com/apurv.goel.7</item>
-        <item>https://www.facebook.com/pankajprabhunarayan.jarha</item>
+        <item>https://m.facebook.com/home.php</item>
+        <item>https://www.facebook.com/kamal.kalme.927</item>
 
     </string-array>
 
     <string-array name="team_fblinks_opnlog">
-        <item>https://www.facebook.com/gunasai516</item>
-        <item>https://www.facebook.com/AVI916</item>
-        <item>https://www.facebook.com/adarsh.sonkar.9</item>
-        <item>https://www.facebook.com/pkumar1039</item>
-        <item>https://www.facebook.com/parijat.pushpam</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.facebook.com/ankit.meena.75033149</item>
-        <item>https://www.facebook.com/</item>
+        <item>https://m.facebook.com/nitheesh.daram</item>
+        <item>https://www.facebook.com/aravind.bethapudi</item>
+        <item>https://www.facebook.com/atri.patel.963</item>
+        <item>https://www.facebook.com/sai.kesana</item>
+        <item>https://www.facebook.com/profile.php?id=100006123391481</item>
+
     </string-array>
 
     <string-array name="team_fblinks_tech">
-        <item>https://www.facebook.com/utkarsh.sinha.5680</item>
-        <item>https://www.facebook.com</item>
-        <item>https://www.facebook.com/mukesh.deogune</item>
-        <item>https://www.facebook.com/sachit.maurya.5</item>
-
+        <item>https://www.facebook.com/vaibhav.kumar.39142</item>
     </string-array>
 
     <string-array name="team_fblinks_creative">
-        <item>https://www.facebook.com/rohit.iitbhu</item>
-        <item>https://m.facebook.com/theayushshukla</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.facebook.com/aishwarya.sharma.5074</item>
-        <item>https://www.facebook.com/piyush.bhardwaj.37604</item>
+        <item>https://m.facebook.com/profile.php?ref=bookmarks</item>
 
     </string-array>
 
