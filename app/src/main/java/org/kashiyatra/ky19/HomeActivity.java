@@ -24,6 +24,7 @@ import android.util.DisplayMetrics;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,18 +50,20 @@ public class HomeActivity extends AppCompatActivity
     FloatingActionButton floatingActionButton1,
             floatingActionButton2, floatingActionButton5, floatingActionButton6;
     DrawerLayout mDrawerLayout;
-    private TabsPagerAdapter mTabsPagerAdapter;
+    FrameLayout container;
+    TextView openEvents,openGallery,openSchedule,openAbouts,openSponsors;
+  /*  private TabsPagerAdapter mTabsPagerAdapter;
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
-    private AppBarLayout appBarLayout;
+    */private AppBarLayout appBarLayout;
     private int back_count = 0;
     private boolean isLoggedIn;
 
-    public TabLayout getTabLayout() {
+  /*  public TabLayout getTabLayout() {
         mTabLayout = findViewById(R.id.tabs);
         return mTabLayout;
     }
-
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -100,7 +103,43 @@ public class HomeActivity extends AppCompatActivity
                 float alpha = min((range + verticalOffset) / initial, 1);
             }
         });
-
+        container=findViewById(R.id.viewpager);
+        openEvents=findViewById(R.id.openEvents);
+        openAbouts=findViewById(R.id.openAbout);
+        openGallery=findViewById(R.id.openGallery);
+        openSponsors=findViewById(R.id.openSponsors);
+        openSchedule=findViewById(R.id.openSchedule);
+        setContainer(1);
+        openAbouts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContainer(1);
+            }
+        });
+        openGallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContainer(2);
+            }
+        });
+        openSchedule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContainer(3);
+            }
+        });
+        openEvents.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               setContainer(4);
+            }
+        });
+        openSponsors.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContainer(5);
+            }
+        });
         final NavigationView navigationView = findViewById(R.id.nav_view);
         final View headerView = navigationView.getHeaderView(0);
         navigationView.setNavigationItemSelectedListener(this);
@@ -136,9 +175,9 @@ public class HomeActivity extends AppCompatActivity
             }
         });
 
-        mTabsPagerAdapter = new TabsPagerAdapter(getSupportFragmentManager());
+     //   mTabsPagerAdapter = new TabsPagerAdapter(getSupportFragmentManager());
 
-        // Set up the ViewPager with the sections adapter.
+      /*  // Set up the ViewPager with the sections adapter.
         mViewPager = findViewById(R.id.viewpager);
         mViewPager.setAdapter(mTabsPagerAdapter);
 
@@ -169,7 +208,7 @@ public class HomeActivity extends AppCompatActivity
             public void onTabReselected(TabLayout.Tab tab) {
 
             }
-        });
+        });*/
 
 //        changeTabsFont();
     }
@@ -187,7 +226,7 @@ public class HomeActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else if (!isLoggedIn) {
             super.onBackPressed();
-            Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
+            Intent intent = new Intent(HomeActivity.this, NewLoginActivity.class);
             overridePendingTransition(R.anim.pull_left, R.anim.push_right);
             startActivity(intent);
         } else if (back_count == 0) {
@@ -274,10 +313,10 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
         Intent intent;
         switch (id) {
-            case R.id.nav_profile:
+           case R.id.nav_profile:
                 startActivity(new Intent(HomeActivity.this,UserProfile.class));
                 break;
-            case R.id.nav_about:
+         /*   case R.id.nav_about:
                 mViewPager.setCurrentItem(0);
                 break;
             case R.id.nav_schedule:
@@ -288,14 +327,14 @@ public class HomeActivity extends AppCompatActivity
                 break;
             case R.id.nav_location:
                 mViewPager.setCurrentItem(3);
-                break;
+                break;*/
             case R.id.Gallery:
                 Intent intent1=new Intent(getApplicationContext(),GalleryActivty.class);
                 startActivity(intent1);
                 break;
-            case R.id.nav_sponsors:
+           /* case R.id.nav_sponsors:
                 mViewPager.setCurrentItem(4);
-                break;
+                break;*/
             default:
                 break;
         }
@@ -304,7 +343,7 @@ public class HomeActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-
+/*
     void Logout() {
 //        LoginManager.getInstance().logOut();
         SharedPreferences.Editor editor = prefs.edit();
@@ -314,7 +353,7 @@ public class HomeActivity extends AppCompatActivity
         startActivity(intent);
         overridePendingTransition(R.anim.pull_left, R.anim.push_right);
         finish();
-    }
+    }*/
 
     public void openURL(String url) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
@@ -325,24 +364,7 @@ public class HomeActivity extends AppCompatActivity
         return dp * context.getResources().getDisplayMetrics().density;
     }
 
-//    private void changeTabsFont() {
-//
-//        ViewGroup vg = (ViewGroup) mTabLayout.getChildAt(0);
-//        int tabsCount = vg.getChildCount();
-//        for (int j = 0; j < tabsCount; j++) {
-//            ViewGroup vgTab = (ViewGroup) vg.getChildAt(j);
-//            int tabChildsCount = vgTab.getChildCount();
-//            for (int i = 0; i < tabChildsCount; i++) {
-//                View tabViewChild = vgTab.getChildAt(i);
-//                if (tabViewChild instanceof TextView) {
-//                    ((TextView) tabViewChild).setTypeface(Typeface.createFromAsset(getAssets(), "BebasNeue Regular.ttf"), Typeface.NORMAL);
-//                    ((TextView) tabViewChild).setTextSize(getResources().getDimension(R.dimen.desc_text_size) * 1.5f);
-//                }
-//            }
-//        }
-//    }
-
-    private class TabsPagerAdapter extends FragmentPagerAdapter {
+    /*private class TabsPagerAdapter extends FragmentPagerAdapter {
 
         private TabsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -390,5 +412,76 @@ public class HomeActivity extends AppCompatActivity
             }
         }
 
+    }*/
+    private void setContainer(int num)
+    {
+        if(num==1)
+        {
+            FragmentManager manager=getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.viewpager,AboutFragment.newInstance(),"Tag");
+            transaction.addToBackStack(null);
+            openAbouts.setTextColor(getResources().getColor(R.color.colorAccent));
+            openGallery.setTextColor(getResources().getColor(R.color.white));
+            openSchedule.setTextColor(getResources().getColor(R.color.white));
+            openEvents.setTextColor(getResources().getColor(R.color.white));
+            openSponsors.setTextColor(getResources().getColor(R.color.white));
+            transaction.commit();
+        }
+        else if(num==2)
+        {
+            FragmentManager manager=getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.viewpager,GalleryFragment.newInstance(),"Tag");
+            transaction.addToBackStack(null);
+            openAbouts.setTextColor(getResources().getColor(R.color.white));
+            openGallery.setTextColor(getResources().getColor(R.color.colorAccent));
+            openSchedule.setTextColor(getResources().getColor(R.color.white));
+            openEvents.setTextColor(getResources().getColor(R.color.white));
+            openSponsors.setTextColor(getResources().getColor(R.color.white));
+            transaction.commit();
+        }
+        else if(num==3)
+        {
+            FragmentManager manager=getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.viewpager,ScheduleFragment.newInstance(),"Tag");
+            transaction.addToBackStack(null);
+
+            openAbouts.setTextColor(getResources().getColor(R.color.white));
+            openGallery.setTextColor(getResources().getColor(R.color.white));
+            openSchedule.setTextColor(getResources().getColor(R.color.colorAccent));
+            openEvents.setTextColor(getResources().getColor(R.color.white));
+            openSponsors.setTextColor(getResources().getColor(R.color.white));
+            transaction.commit();
+        }
+        else if(num==4)
+        {
+            FragmentManager manager=getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.viewpager,new newEventsFragment(),"Tag");
+            transaction.addToBackStack(null);
+
+            openAbouts.setTextColor(getResources().getColor(R.color.white));
+            openGallery.setTextColor(getResources().getColor(R.color.white));
+            openSchedule.setTextColor(getResources().getColor(R.color.white));
+            openEvents.setTextColor(getResources().getColor(R.color.colorAccent));
+            openSponsors.setTextColor(getResources().getColor(R.color.white));
+            transaction.commit();
+        }
+        else if(num==5)
+        {
+            FragmentManager manager=getSupportFragmentManager();
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.add(R.id.viewpager,SponsorsFragment.newInstance(),"Tag");
+            transaction.addToBackStack(null);
+
+            openAbouts.setTextColor(getResources().getColor(R.color.white));
+            openGallery.setTextColor(getResources().getColor(R.color.white));
+            openSchedule.setTextColor(getResources().getColor(R.color.white));
+            openEvents.setTextColor(getResources().getColor(R.color.white));
+            openSponsors.setTextColor(getResources().getColor(R.color.colorAccent));
+            transaction.commit();
+        }
     }
 }

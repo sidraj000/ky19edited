@@ -31,7 +31,7 @@
 
 
 
-    <androidx.viewpager.widget.ViewPager
+    <FrameLayout
         android:id="@+id/viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -100,10 +100,11 @@
 
      </com.github.clans.fab.FloatingActionMenu>
 
-     <com.google.android.material.tabs.TabLayout
+     <LinearLayout
          android:id="@+id/tabs"
          android:layout_width="match_parent"
          android:layout_height="48dp"
+         android:orientation="horizontal"
          android:layout_alignParentBottom="true"
          android:layout_alignParentLeft="true"
          android:layout_alignParentStart="true"
@@ -119,6 +120,47 @@
          app:tabIndicatorColor="#f9b194"
          app:tabSelectedTextColor="#f9b194"
          app:tabTextAppearance="@style/myTabText"
-         tools:ignore="NotSibling" />
+         tools:ignore="NotSibling" >
+         <TextView
+             android:id="@+id/openAbout"
+             android:text="About"
+             android:gravity="center"
+             android:textColor="#fff"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"/>
+         <TextView
+             android:id="@+id/openGallery"
+             android:text="Gallery"
+             android:gravity="center"
+             android:textColor="#fff"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"/>
+         <TextView
+             android:id="@+id/openSchedule"
+             android:text="Schedule"
+             android:gravity="center"
+             android:textColor="#fff"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"/>
+         <TextView
+             android:id="@+id/openEvents"
+             android:text="Events"
+             android:gravity="center"
+             android:textColor="#fff"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"/>
+         <TextView
+             android:id="@+id/openSponsors"
+             android:text="Sponsors"
+             android:gravity="center"
+             android:textColor="#fff"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"/>
+     </LinearLayout>
  </RelativeLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

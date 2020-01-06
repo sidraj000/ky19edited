@@ -43,5 +43,11 @@ ImageView ivMerchandise,ivQrcode,ivFaq,ivTeamMemebers,ivEvents;
                 startActivity(new Intent(UserProfile.this, TeamActivity.class));
             }
         });
+        ivQrcode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UserProfile.this,QRcode.class));
+            }
+        });
     }
 }

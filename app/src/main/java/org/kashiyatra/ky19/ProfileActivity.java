@@ -93,13 +93,13 @@ public class ProfileActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_logout) {
-            Logout();
+         //   Logout();
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
-
+/*
     void Logout() {
 //        LoginManager.getInstance().logOut();
         SharedPreferences.Editor editor = prefs.edit();
@@ -109,5 +109,5 @@ public class ProfileActivity extends AppCompatActivity {
         startActivity(intent);
         overridePendingTransition(R.anim.pull_left, R.anim.push_right);
         finish();
-    }
+    }*/
 }

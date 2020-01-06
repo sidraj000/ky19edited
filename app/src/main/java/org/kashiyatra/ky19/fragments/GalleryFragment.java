@@ -144,15 +144,6 @@ public class GalleryFragment extends Fragment implements ImageAdapter.onImageCli
             }
         });
 
-
-
-
-
-
-
-
-
-
     }
 
 

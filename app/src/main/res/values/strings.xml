@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Kashiyatra\'19</string>
+    <string name="app_name" translatable="false">Kashiyatra\'20</string>
 
     <string name="web_id">"381425729111-lu8d1rfevkdifuoeslfnldsg71ja5bdo.apps.googleusercontent.com"</string>
 
@@ -169,6 +169,9 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Square World!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Srings related to faq questions -->
 

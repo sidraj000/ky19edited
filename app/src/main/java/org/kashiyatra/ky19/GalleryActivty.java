@@ -89,8 +89,6 @@ public class GalleryActivty extends AppCompatActivity  implements ImageAdapter.o
         mDatabaseRef = FirebaseDatabase.getInstance().getReference("uploads");
 
 
-
-
         mRecyclerView = findViewById(R.id.recycler_view);
         mRecyclerView.setHasFixedSize(true);
         Display display = getWindowManager(). getDefaultDisplay();
@@ -122,18 +120,7 @@ public class GalleryActivty extends AppCompatActivity  implements ImageAdapter.o
             }
         });
 
-
-
-
-
-
-
-
-
-
     }
-
-
     @Override
     public void onImageClicked(int pos) {
         Intent intent=new Intent(getApplicationContext(),fullImage.class);
