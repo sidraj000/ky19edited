@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -145,8 +146,8 @@ public class NewLoginActivity extends Activity {
                 firebaseAuthWithGoogle(account);
             } catch (ApiException e) {
                 // Google Sign In failed, update UI appropriately
-                //  Log.w(TAG, "Google sign in failed", e);
-                // ...
+                  Log.e("erroor", "Google sign in failed", e);
+
             }
         }
 
@@ -163,7 +164,7 @@ public class NewLoginActivity extends Activity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in User's information
-                            // Log.d(TAG, "signInWithCredential:success");
+                            Log.d("erroor", "signInWithCredential:success");
                             currentUser = mAuth.getCurrentUser();
                             uId=currentUser.getUid();
 
@@ -173,7 +174,7 @@ public class NewLoginActivity extends Activity {
 
                         } else {
                             // If sign in fails, display a message to the User.
-                            // Log.w(TAG, "signInWithCredential:failure", task.getException());
+                             Log.w("erroor", "signInWithCredential:failure", task.getException());
                             // Snackbar.make(findViewById(R.id.main_layout), "Authentication Failed.", Snackbar.LENGTH_SHORT).show();
                             currentUser=null;
                             updateUI(currentUser);
@@ -191,7 +192,7 @@ public class NewLoginActivity extends Activity {
     private void updateUI(final FirebaseUser user) {
         if(user!=null) {
             writeNewUser(user.getUid(), user.getDisplayName(), user.getEmail(), user.getPhotoUrl().toString());
-            Toast.makeText(this, "hii", Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(this, "hii", Toast.LENGTH_SHORT).show();
             startActivity(new Intent(NewLoginActivity.this, HomeActivity.class));
             Toast.makeText(NewLoginActivity.this, "Successfully logged in as "+user.getDisplayName(), Toast.LENGTH_SHORT).show();
         }

@@ -12,6 +12,8 @@ import com.google.zxing.WriterException;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.QRCodeWriter;
 
+import java.net.URL;
+
 public class QRcode extends AppCompatActivity {
 
     @Override
@@ -21,7 +23,7 @@ public class QRcode extends AppCompatActivity {
         // this is a small sample use of the QRCodeEncoder class from zxing
         QRCodeWriter writer = new QRCodeWriter();
         try {
-            BitMatrix bitMatrix = writer.encode("siddharthraj000@gmail.com", BarcodeFormat.QR_CODE, 1024, 1024);
+            BitMatrix bitMatrix = writer.encode("www.kashiyatra.org", BarcodeFormat.QR_CODE, 1024, 1024);
             int width = bitMatrix.getWidth();
             int height = bitMatrix.getHeight();
             Bitmap bmp = Bitmap.createBitmap(width, height, Bitmap.Config.RGB_565);

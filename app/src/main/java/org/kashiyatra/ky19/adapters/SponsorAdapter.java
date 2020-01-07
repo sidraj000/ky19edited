@@ -78,7 +78,7 @@ public class SponsorAdapter extends RecyclerView.Adapter<SponsorAdapter.ViewHold
     }
     public void getData()
     {
-        FirebaseDatabase.getInstance().getReference().child("sponsordata").addChildEventListener(new ChildEventListener() {
+        FirebaseDatabase.getInstance().getReference().child("sponsors").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot dataSnapshot, @Nullable String s) {
                 Sponsors sponsors=dataSnapshot.getValue(Sponsors.class);

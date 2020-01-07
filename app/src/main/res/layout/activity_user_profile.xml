@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.467" />
 
     <ImageView
-        android:id="@+id/iv1"
+        android:id="@+id/ivProfile"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:src="@drawable/cv"
@@ -369,8 +369,8 @@
         android:text="Siddharth Raj"
         android:textColor="#000"
         android:textSize="18dp"
-        app:layout_constraintStart_toStartOf="@+id/iv1"
-        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+        app:layout_constraintStart_toStartOf="@+id/ivProfile"
+        app:layout_constraintTop_toBottomOf="@+id/ivProfile" />
 
     <TextView
         android:id="@+id/textView"
