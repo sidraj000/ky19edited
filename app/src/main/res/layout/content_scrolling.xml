@@ -22,7 +22,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimaryDark"
+            android:background="?attr/colorPrimary"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
 
@@ -108,7 +108,7 @@
          android:layout_alignParentBottom="true"
          android:layout_alignParentLeft="true"
          android:layout_alignParentStart="true"
-         android:background="@color/pink"
+         android:background="#822D3D"
          android:animateLayoutChanges="true"
          app:layout_scrollFlags="scroll|snap"
          app:layout_anchor="@id/app_bar"

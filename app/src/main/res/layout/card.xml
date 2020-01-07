@@ -12,6 +12,7 @@
 
         <RelativeLayout
             android:id="@+id/relative"
+            android:visibility="gone"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -54,8 +55,7 @@
 
         <ImageView
             android:id="@+id/image_view_upload"
-            android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp"
+
             android:layout_below="@+id/relative"
             android:layout_above="@+id/footer"
 
@@ -67,6 +67,7 @@
             android:id="@+id/footer"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
+            android:visibility="gone"
             android:text="Footer"
             android:layout_margin="8dp"
 
