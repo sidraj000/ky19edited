@@ -139,4 +139,61 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_qrCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/ic_faq"
+            fab:fab_colorNormal="@color/no5"
+            fab:fab_colorPressed="@color/no4"
+            fab:fab_size="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Scan"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floating_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/ic_add_location_black_24dp"
+            fab:fab_colorNormal="@color/no5"
+            fab:fab_colorPressed="@color/no4"
+            fab:fab_size="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Location"/>
+
+    </LinearLayout>
+
+
 </FrameLayout>

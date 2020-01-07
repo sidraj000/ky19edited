@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.location.Location;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,7 +20,7 @@ import com.github.clans.fab.FloatingActionButton;
 public class ProfileActivity extends AppCompatActivity {
     private boolean isLoggedIn;
     SharedPreferences prefs;
-    FloatingActionButton floatingActionButton1, floatingActionButton2, floatingActionButton5, floatingActionButton6;
+    FloatingActionButton floatingActionButton1, floatingActionButton2, floatingActionButton5, floatingActionButton6,floatingActionButton7,floatingActionButton8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +54,8 @@ public class ProfileActivity extends AppCompatActivity {
         floatingActionButton1 = findViewById(R.id.floating_team);
         floatingActionButton2 = findViewById(R.id.floating_merchandise);
         floatingActionButton5 = findViewById(R.id.floating_faq);
+        floatingActionButton7=findViewById(R.id.floating_qrCode);
+        floatingActionButton8=findViewById(R.id.floating_location);
 
 
         floatingActionButton1.setOnClickListener(new View.OnClickListener() {
@@ -69,6 +73,18 @@ public class ProfileActivity extends AppCompatActivity {
         floatingActionButton5.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), FaqActivity.class);
+                startActivity(intent);
+            }
+        });
+        floatingActionButton7.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), QRcode.class);
+                startActivity(intent);
+            }
+        });
+        floatingActionButton8.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), LocationActivity.class);
                 startActivity(intent);
             }
         });

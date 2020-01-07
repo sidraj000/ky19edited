@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
+    android:background="@color/colorPrimary"
     tools:context=".UserProfile">
     <View
         android:id="@+id/divider1"
@@ -116,7 +116,7 @@
         android:id="@+id/ivMerchandise"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/merchnadise_icon"
+        android:src="@drawable/merchandice"
         app:layout_constraintBottom_toTopOf="@+id/divider8"
         app:layout_constraintEnd_toStartOf="@+id/divider6"
         app:layout_constraintStart_toEndOf="@+id/divider5"
@@ -178,7 +178,7 @@
         android:id="@+id/ivQrcode"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/qrcode_icon"
+        android:background="@drawable/qr_code"
         app:layout_constraintBottom_toTopOf="@+id/divider12"
         app:layout_constraintEnd_toStartOf="@+id/divider10"
         app:layout_constraintStart_toEndOf="@+id/divider9"
@@ -300,7 +300,7 @@
         app:layout_constraintEnd_toStartOf="@+id/divider18"
         app:layout_constraintStart_toEndOf="@+id/divider17"
         app:layout_constraintTop_toBottomOf="@+id/divider19"
-        android:src="@drawable/team" />
+        android:background="@drawable/team" />
 
 
 
@@ -355,7 +355,7 @@
         android:id="@+id/ivFaq"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:src="@drawable/faq_icon"
+        android:background="@drawable/faq"
         app:layout_constraintBottom_toTopOf="@+id/divider24"
         app:layout_constraintEnd_toStartOf="@+id/divider22"
         app:layout_constraintStart_toEndOf="@+id/divider21"
