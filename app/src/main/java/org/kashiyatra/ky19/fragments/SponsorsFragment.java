@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import org.kashiyatra.ky19.Objects.Sponsors;
@@ -20,6 +21,7 @@ import java.util.List;
 
 public class SponsorsFragment extends Fragment {
 
+    public DatabaseReference ref;
     public SponsorsFragment() {
         // Required empty public constructor
     }
@@ -37,13 +39,14 @@ public class SponsorsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_sponsors, container, false);
-
-     /*   String[] types = getResources().getStringArray(R.array.sponsor_types);
+       ref=FirebaseDatabase.getInstance().getReference();
+      String[] types = getResources().getStringArray(R.array.sponsor_types);
         String[] logoUrls = getResources().getStringArray(R.array.sponsor_logo_urls);
+
         for(int i=0;i<types.length;i++)
         {
-            FirebaseDatabase.getInstance().getReference().child("sponsordata").child(Integer.toString(i)).setValue(new Sponsors(types[i],logoUrls[i]));
-        }*/
+           ref.child("sponsors").child(Integer.toString(i)).setValue(new Sponsors(types[i],logoUrls[i]));
+        }
         RecyclerView mSponsorRecyclerView = rootView.findViewById(R.id.sponsor_recycler);
         GridLayoutManager mSponsorLayoutManager = new GridLayoutManager(getActivity(), 2);
         mSponsorLayoutManager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
